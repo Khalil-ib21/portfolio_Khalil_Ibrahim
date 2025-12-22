@@ -58,11 +58,11 @@ The University of Birmingham has provided me with an academically rigorous yet h
 **Program:** Global Exchange Program  
 **Academic Standing:** Distinction  
 **Focus Areas:** Database Systems, Innovation, and Entrepreneurship  <br />
-My exchange at HKUST was a globally enriching experience that expanded my understanding of how technical innovation drives organizational growth. Immersed in one of Asia’s leading technological ecosystems, I explored how computing infrastructure, business models, and cross-cultural collaboration intersect in modern tech environments. <br />
+My exchange at HKUST was a globally enriching experience that expanded my understanding of how technical innovation drives organisational growth. Immersed in one of Asia’s leading technological ecosystems, I explored how computing infrastructure, business models, and cross-cultural collaboration intersect in modern tech environments. <br />
 **Modules Studied**  
     - Database Management Systems  
     - Business and Innovation in Technology <br />
-These courses offered a comprehensive look into how data systems and business innovation co-evolve. The Database module strengthened my skills in query optimization, relational schema design, and concurrency control, while the Innovation module challenged me to evaluate how emerging technologies shape competitive advantage. <br />
+These courses offered a comprehensive look into how data systems and business innovation co-evolve. The Database module strengthened my skills in query optimisation, relational schema design, and concurrency control, while the Innovation module challenged me to evaluate how emerging technologies shape competitive advantage. <br />
 **Projects and Research Highlights**  
     - Conducted a research-based analysis on Lockheed Martin’s technological diversification and R&D investment strategy.  
     - Developed a case study on data-driven entrepreneurship for Southeast Asian markets. <br />
@@ -145,7 +145,7 @@ Worked on surface EMG signal analysis for human activity recognition. Focused on
     title: "Web Developer Intern, Clic Editions",
     img: "/clic.jpg",
     desc: `
-Contributed to developing a legal document search platform by improving search logic, front-end accessibility, and overall performance. Focused on optimizing user experience and interface design through iterative updates.  <br />
+Contributed to developing a legal document search platform by improving search logic, front-end accessibility, and overall performance. Focused on optimising user experience and interface design through iterative updates.  <br />
 **Date:** Jul 2023 – Aug 2023  
 **Link:** [Clic Editions](https://www.cliceditions.com)
 `,
@@ -169,6 +169,33 @@ Represented NCUK in international outreach programs and academic fairs, supporti
 //
 export const projects: PortfolioItem[] = [
   {
+  slug: "brain-mri-segmentation",
+  title: "Brain MRI Tissue Segmentation",
+  img: "/brain-mri.jpg",
+  desc: `
+Developed a full pipeline for multi-class brain tissue segmentation on T1-weighted MRI volumes. Implemented unsupervised and classical vision techniques, including K-Means clustering, Multi-Otsu thresholding, and gradient-based Watershed segmentation. Evaluated performance on both 2D slices and full 3D volumes using Dice, IoU, precision, recall, and confusion-matrix analysis.  <br />
+[**View Project**](https://github.com/sharafedd/brain-mri-tissue-segmentation)
+`,
+  },
+  {
+  slug: "firmware-fuzzing",
+  title: "Firmware Fuzzing & Vulnerability Analysis",
+  img: "/firmware-fuzzing.jpg",
+  desc: `
+Built a reproducible firmware fuzzing pipeline using AFL++ and Docker to discover memory-safety vulnerabilities in embedded software. Implemented custom harnesses, generated deterministic crashes, and performed root-cause analysis using GDB, stack inspection, and source-level debugging. Produced a formal CVE-style vulnerability report with CVSS scoring and technical mitigation details.  <br />
+[**View Project**](https://github.com/sharafedd/assignment1-team14)
+`,
+  },
+  {
+  slug: "firmware-rehosting",
+  title: "Embedded Firmware Rehosting & Protocol Analysis",
+  img: "/firmware-rehosting.jpg",
+  desc: `
+Reverse-engineered and rehosted embedded firmware for a microcontroller-based system to enable dynamic analysis without physical hardware. Performed protocol analysis, peripheral modelling, and execution tracing to support security testing and fuzzing at scale. Demonstrated low-level understanding of firmware execution, hardware–software interaction, and embedded system constraints.  <br />
+[**View Project**](https://github.com/sharafedd/pico-firmware-rehosting-lab)
+`,
+  },
+  {
     slug: "portfolio",
     title: "Digital Profile",
     img: "/portfolio.jpg",
@@ -182,7 +209,7 @@ Built a modular personal portfolio using Next.js 15 and Tailwind CSS v4. It dyna
     title: "MEA-GPT: AI Assistant for Research and Analytical Writing",
     img: "/mea-gpt.jpg",
     desc: `
-Built an AI assistant that helps users summarize, structure, and analyze research writing. Integrated multiple Hugging Face models for text generation and summarization. Implemented a user-friendly interface with Next.js and Tailwind CSS, allowing users to input text and receive AI-generated insights.  
+Built an AI assistant that helps users summarise, structure, and analyze research writing. Integrated multiple Hugging Face models for text generation and summarisation. Implemented a user-friendly interface with Next.js and Tailwind CSS, allowing users to input text and receive AI-generated insights.  
 `,
   },
   {
@@ -208,7 +235,7 @@ Built a story-sharing platform using Next.js and Supabase where users can write,
     title: "The Karta Project: Closed-Loop Digital Payment System",
     img: "/karta.jpg",
     desc: `
-Designed a secure closed-loop payment ecosystem for Algerian businesses using Kotlin and custom backend APIs. Supported NFC prepaid transactions with real-time balance synchronization and multi-role access. <br />    
+Designed a secure closed-loop payment ecosystem for Algerian businesses using Kotlin and custom backend APIs. Supported NFC prepaid transactions with real-time balance synchronisation and multi-role access. <br />    
 `,
   },
   {
@@ -243,7 +270,7 @@ Built a social drawing application using Angular and Spring Boot, integrating ge
     title: "Neural Networks in Time Series Analysis",
     img: "/fintech.jpg",
     desc: `
-Compared CNN, RNN, and LSTM models for time-series forecasting and pattern recognition. Implemented evaluation pipelines to analyze model accuracy and temporal dependencies across financial datasets.  <br />
+Compared CNN, RNN, and LSTM models for time-series forecasting and pattern recognition. Implemented evaluation pipelines to analyse model accuracy and temporal dependencies across financial datasets.  <br />
 `,
   },
   {
