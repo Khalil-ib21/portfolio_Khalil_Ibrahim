@@ -173,7 +173,7 @@ export const projects: PortfolioItem[] = [
   title: "Brain MRI Tissue Segmentation",
   img: "/brain-mri.jpg",
   desc: `
-Developed a full pipeline for multi-class brain tissue segmentation on T1-weighted MRI volumes. Implemented unsupervised and classical vision techniques, including K-Means clustering, Multi-Otsu thresholding, and gradient-based Watershed segmentation. Evaluated performance on both 2D slices and full 3D volumes using Dice, IoU, precision, recall, and confusion-matrix analysis.  <br />
+Developed a full pipeline for multi-class brain tissue segmentation on T1-weighted MRI volumes. Implemented unsupervised and classical vision techniques, including K-Means clustering, Multi-Otsu thresholding, and gradient-based Watershed segmentation. Evaluated performance on both 2D slices and full 3D volumes using Dice coefficient, IoU, precision, recall, and confusion-matrix analysis.  <br />
 [**View Project**](https://github.com/sharafedd/brain-mri-tissue-segmentation)
 `,
   },
