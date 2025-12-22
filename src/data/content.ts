@@ -178,21 +178,21 @@ Developed a full pipeline for multi-class brain tissue segmentation on T1-weight
 `,
   },
   {
-  slug: "firmware-fuzzing",
-  title: "Firmware Fuzzing & Vulnerability Analysis",
-  img: "/firmware-fuzzing.jpg",
-  desc: `
-Built a reproducible firmware fuzzing pipeline using AFL++ and Docker to discover memory-safety vulnerabilities in embedded software. Implemented custom harnesses, generated deterministic crashes, and performed root-cause analysis using GDB, stack inspection, and source-level debugging. Produced a formal CVE-style vulnerability report with CVSS scoring and technical mitigation details.  <br />
-[**View Project**](https://github.com/sharafedd/assignment1-team14)
-`,
-  },
-  {
   slug: "firmware-rehosting",
   title: "Embedded Firmware Rehosting & Protocol Analysis",
   img: "/firmware-rehosting.jpg",
   desc: `
 Reverse-engineered and rehosted embedded firmware for a microcontroller-based system to enable dynamic analysis without physical hardware. Performed protocol analysis, peripheral modelling, and execution tracing to support security testing and fuzzing at scale. Demonstrated low-level understanding of firmware execution, hardware–software interaction, and embedded system constraints.  <br />
 [**View Project**](https://github.com/sharafedd/pico-firmware-rehosting-lab)
+`,
+  },
+  {
+  slug: "firmware-fuzzing",
+  title: "Firmware Fuzzing & Vulnerability Analysis",
+  img: "/firmware-fuzzing.jpg",
+  desc: `
+Built a reproducible firmware fuzzing pipeline using AFL++ and Docker to discover memory-safety vulnerabilities in embedded software. Implemented custom harnesses, generated deterministic crashes, and performed root-cause analysis using GDB, stack inspection, and source-level debugging. Produced a formal CVE-style vulnerability report with CVSS scoring and technical mitigation details.  <br />
+[**View Project**](https://github.com/sharafedd/evilcorp-js-security-audit)
 `,
   },
   {
