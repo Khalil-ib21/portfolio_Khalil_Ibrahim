@@ -25,11 +25,11 @@ export const education: PortfolioItem[] = [
 Developed strong capabilities in applying data-driven methods to real-world engineering challenges. Culminating project focused on cognitive digital twins for smart building energy management — integrating IoT sensor data, occupancy prediction, and HVAC simulation within EnergyPlus.
  
 **Key Modules**
-- Machine Learning 
-- Storing and Managing Data 
+- Machine Learning & Predictive Modelling
+- Data Engineering & SQL
 - IoT Systems & Sensor Data Integration
-- Data Visualisation
-- Data Science Group Project`,
+- Research Methods & Statistical Analysis
+- Group Data Science Project`,
   },
   {
     slug: "uob-meng",
@@ -153,7 +153,7 @@ Based on these findings, developed a theoretical AI-driven BIM-FM framework inte
  
 **Keywords:** BIM, Digital Twins, AI, Facility Management, Occupancy Monitoring, O&M, Energy Optimisation
 **Technologies:** Python, EnergyPlus, BIM, Digital Twins, Machine Learning, Scikit-learn
-**[View Project Report](/FYP_Report.pdf)**`,
+**[View Project Report](/FYP_civileng.pdf)**`,
   },
   {
     slug: "occupancy-detection",
@@ -202,7 +202,29 @@ The final design incorporated a modular structural system for rapid assembly, on
 - Achieved First Class grade for design quality, project management, and report
  
 **Tools:** AutoCAD, Revit, MS Project, Gantt Charts, SWOT Analysis, Structural Analysis
-**[View Project Report](/IDP_Report.pdf)**`,
+**[View Project Report](/IDP_DACReport.pdf)**`,
+  },
+  {
+    slug: "cognitive-digital-twin-ds",
+    title: "Cognitive Digital Twin — Data Science Final Year Project",
+    img: "/fyp.jpg",
+    date: "Jan 2025 – Apr 2025",
+    desc: `
+**Grade: First Class** — MSc Data Science Final Year Project, University of Birmingham
+ 
+Developed a cognitive digital twin for a university office space to optimise building energy performance through occupancy-aware HVAC control. Built a complete end-to-end pipeline integrating environmental IoT sensor data (temperature, CO₂, humidity, VOC) with machine learning models to predict occupancy in real time.
+ 
+Predictions were fed into EnergyPlus simulations to dynamically adjust HVAC output based on actual demand. Applied reinforcement learning to optimise control strategies over time. Produced interactive dashboards to communicate findings to non-technical stakeholders.
+ 
+**Key Outcomes**
+- End-to-end digital twin pipeline from IoT sensor ingestion to HVAC simulation
+- Real-time occupancy prediction driving demand-responsive energy control
+- Reinforcement learning for adaptive operational decision-making
+- Stakeholder-ready dashboards and formal technical report
+- Achieved First Class grade
+ 
+**Technologies:** Python, EnergyPlus, IoT, Machine Learning, Reinforcement Learning, Digital Twins
+**[View Project Report](/FYP_dattascience.pdf)**`,
   },
   {
     slug: "bim-model-qc",
