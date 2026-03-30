@@ -36,7 +36,7 @@ export default function HeroSection() {
  
         {/* Tagline */}
         <p className="text-neutral-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Civil Engineer — Construction Management · Project Delivery · Digital & BIM
+          Graduate Civil Engineer — Site Delivery · Project Management · Digital & BIM
         </p>
  
         {/* Social Links */}

@@ -21,53 +21,52 @@ import Navbar from "@/components/Navbar";
  
 export default function PortfolioPage() {
   const skillCategories: Record<string, string[]> = {
-    "Project & Site Management": [
+    "Site & Construction": [
       "Site Coordination",
-      "Construction Management",
-      "Health & Safety (Toolbox Talks, Safety Walks)",
-      "Project Planning & Scheduling",
-      "Stakeholder Management",
-      "Issue Register Management",
-      "Team Leadership",
-      "APM Project Fundamentals (PFQ)",
-      "MS Project",
+      "Subcontractor Interface",
+      "Constructability Awareness",
+      "Method Statement Awareness",
+      "Quality Documentation",
+      "H&S Compliance",
+      "Toolbox Talks & Safety Walks",
+      "Materials Logistics",
+      "Progress Reporting",
+    ],
+    "Project Management": [
+      "Programme Support",
+      "Action / Risk / Issue Logs",
+      "Stakeholder Coordination",
+      "Reporting Packs",
+      "Meeting Minutes",
+      "Change Awareness",
+      "APM PFQ (In Progress)",
+      "RICS BIM Foundation (In Progress)",
     ],
     "Digital & BIM": [
-      "BIM (Building Information Modelling)",
+      "BIM & Information Management",
       "Autodesk Tandem",
-      "Autodesk Revit",
-      "Navisworks",
-      "AutoCAD",
-      "Civil 3D",
       "Common Data Environment (CDE)",
       "ISO 19650",
+      "Asset Information Quality",
       "Digital Twins",
       "EnergyPlus",
-      "Information Quality Assurance",
+      "AutoCAD",
+      "Revit",
     ],
-    "Engineering & Analysis": [
-      "Structural Analysis",
-      "Finite Element Analysis (FEA)",
-      "Abaqus",
-      "SolidWorks",
-      "IBER (Flood Simulation)",
-      "Autodesk Fusion 360",
-      "IoT Sensor Integration",
-      "HVAC Simulation",
-    ],
-    "Data & Reporting": [
+    "Data & Tools": [
       "Python",
       "SQL",
-      "Excel & Data Analysis",
+      "Microsoft Excel",
       "Power BI",
+      "HubSpot CRM",
       "Pandas",
       "Plotly",
-      "HubSpot CRM",
       "Data Governance",
+      "IoT Sensor Integration",
     ],
   };
  
-  const [selected, setSelected] = useState("Project & Site Management");
+  const [selected, setSelected] = useState("Site & Construction");
  
   return (
     <main className="text-white">
@@ -90,7 +89,7 @@ export default function PortfolioPage() {
       <section id="about" className="bg-[#1a1a1a] px-6 py-20 text-center">
         <SectionTitle>About <span className="text-cyan-400">Me</span></SectionTitle>
         <p className="max-w-3xl mx-auto text-neutral-400 leading-relaxed">
-          Civil Engineer with an MEng from the University of Birmingham and an MSc in Data Science, seeking roles in construction management, project management, and digital delivery. I have hands-on experience in site coordination, BIM, information management, and digital twins, complemented by strong analytical and leadership skills developed across live construction projects, academic research, and internships. I bring a practical, delivery-focused mindset and a passion for using digital tools to improve how infrastructure projects are planned, built, and operated.
+          Graduate Civil Engineer with experience supporting project delivery across both live construction sites and client-side estates teams. Strong foundation in site coordination, health & safety, quality documentation, and programme support — with growing capability in project controls and digital engineering. Comfortable working with contractors, consultants, and stakeholders to translate technical requirements into practical delivery actions. Motivated to develop within a civil engineering, project management, or digital delivery graduate role, contributing to safer, more efficient, and data-driven project outcomes.
         </p>
       </section>
  

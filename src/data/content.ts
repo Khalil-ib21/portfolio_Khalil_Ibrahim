@@ -18,10 +18,12 @@ export const education: PortfolioItem[] = [
     img: "/uob.jpg",
     date: "Sep 2024 – Sep 2025",
     desc: `
-**Degree:** MSc Data Science
-**Classification:** First Class Honours
-**Focus Areas:** Machine Learning, Data Engineering, IoT Systems, Digital Twins
-The MSc Data Science program deepened my expertise in applying data-driven methods to real-world engineering and operational challenges. I developed strong skills in predictive modelling, occupancy forecasting, sensor data integration, and simulation — culminating in a final year project on cognitive digital twins for smart building energy management.
+**Degree:** MSc Data Science & Artificial Intelligence
+**Classification:** 2:1 (Hons)
+**Focus Areas:** Machine Learning, IoT Systems, Digital Twins, Predictive Modelling
+ 
+Developed strong capabilities in applying data-driven methods to real-world engineering challenges. Culminating project focused on cognitive digital twins for smart building energy management — integrating IoT sensor data, occupancy prediction, and HVAC simulation within EnergyPlus.
+ 
 **Key Modules**
 - Machine Learning & Predictive Modelling
 - Data Engineering & SQL
@@ -37,10 +39,12 @@ The MSc Data Science program deepened my expertise in applying data-driven metho
     desc: `
 **Degree:** MEng Civil Engineering
 **Classification:** 2:1 (Upper Second-Class Honours)
-**Focus Areas:** BIM, Digital Delivery, Structural Engineering, Project Management
-My MEng in Civil Engineering gave me a strong foundation in infrastructure design, project delivery, and digital construction methods. I was actively involved in student leadership throughout my degree, serving as Senior Student Representative and Vice President of the Civil Engineering Society.
-**Notable Activities**
-- Senior Student Representative, School of Engineering (2022–2024)
+**Focus Areas:** Project Delivery, BIM, Digital Engineering, Structural Analysis
+ 
+A rigorous four-year integrated masters providing deep expertise in civil engineering design, project management, and digital construction methods. Actively involved in student leadership, representing 250+ students and delivering industry events with firms including Skanska, ICE, and Morgan Sindall.
+ 
+**Leadership & Activities**
+- Senior Student Representative, School of Engineering (2019–2024)
 - Vice President, Civil Engineering Society (2022–2023)
 - Running Backs Coach, Birmingham Lions American Football Team (2023–Present)`,
   },
@@ -52,7 +56,9 @@ My MEng in Civil Engineering gave me a strong foundation in infrastructure desig
     desc: `
 **Award:** Leadership Prize & Science Excellence Prize
 **Final Grade:** 19.0 / 20
-Graduated with distinction from one of Kinshasa's leading secondary schools, achieving a near-perfect final grade and recognition for both academic excellence and leadership qualities.
+ 
+Graduated with distinction, achieving a near-perfect final grade and recognition for both academic excellence and leadership qualities.
+ 
 **Achievements**
 - Recipient of the Leadership Prize
 - Recipient of the Science Excellence Prize
@@ -67,28 +73,56 @@ export const experience: PortfolioItem[] = [
   {
     slug: "data-literacy",
     title: "Data Analyst Intern, Data Literacy Academy",
-    img: "/ta.jpg",
+    img: "/uob.jpg",
+    date: "Jan 2026 – Present",
     desc: `
-Work within the RevOps and Data team to manage, review, and correct data in HubSpot, improving CRM accuracy and supporting smoother business operations. Perform data quality checks and maintain sales and customer records to support reporting, pipeline visibility, and operational decision-making.
-**Date:** Jan 2026 – Present
+Working within the RevOps and Data team to manage, review, and correct data in HubSpot, improving CRM accuracy and supporting smoother business operations. Performing data quality checks and maintaining sales and customer records to support reporting, pipeline visibility, and operational decision-making.
+ 
+**Key Skills:** HubSpot CRM, Revenue Operations, Data Governance, Analytical Problem-Solving
 **Location:** Birmingham, UK`,
   },
   {
-    slug: "bim-intern",
-    title: "BIM & Digital Delivery Intern, University of Birmingham Estates",
+    slug: "amtico",
+    title: "Project & Sustainability Support, Amtico",
     img: "/uob.jpg",
+    date: "Jul 2025 – Aug 2025",
     desc: `
-Conducted FM-readiness and information quality assurance of a campus BIM model in Autodesk Tandem within a Common Data Environment. Created and maintained issue registers and data-gap logs, supporting the resolution of missing, incomplete, and inconsistent asset information. Developed skills in BIM, digital twins, information governance, ISO 19650-aligned checking, and stakeholder coordination.
-**Date:** Jan 2024 – Jul 2024
+Led a multidisciplinary team to deliver a time-bound sustainability assessment as part of Amtico's Micro-Internship Programme. Structured tasks, maintained delivery to deadline, and produced a concise client-style report and executive summary translating findings into practical recommendations for decision-making.
+ 
+**Key Skills:** Project Leadership, Sustainability Assessment, Stakeholder Reporting, Team Coordination
+**Location:** Birmingham, UK`,
+  },
+  {
+    slug: "junior-site-engineer",
+    title: "Junior Site Engineer, Private Contractor",
+    img: "/uob.jpg",
+    date: "Aug 2024 – Oct 2024",
+    desc: `
+Coordinated day-to-day site activities across 4–6 subcontractor teams, supporting programme delivery with exposure to constructability, sequencing, and site constraints. Managed materials logistics and site access across 3–4 active work fronts, balancing delivery schedules, safety constraints, and operational continuity. Maintained 20+ site delivery and H&S records supporting audit readiness. Prepared inputs for progress reporting and short-term programme control, identifying delays and quality issues.
+ 
+**Key Skills:** Site Coordination, Subcontractor Management, H&S Compliance, Progress Reporting
+**Location:** Kinshasa, DR Congo`,
+  },
+  {
+    slug: "bim-intern",
+    title: "Project & Digital Delivery Intern, University of Birmingham Estates",
+    img: "/uob.jpg",
+    date: "Jan 2024 – Jul 2024",
+    desc: `
+Supported multidisciplinary project teams by coordinating information and maintaining structured issue and risk logs across live estates projects. Carried out asset and information quality checks within a Common Data Environment (Autodesk Tandem), supporting effective handover and operational readiness.
+ 
+**Key Skills:** BIM, Autodesk Tandem, CDE Workflows, ISO 19650, Issue & Risk Logs, Stakeholder Coordination
 **Location:** Birmingham, UK`,
   },
   {
     slug: "milvest",
-    title: "Assistant Site Manager Intern, Milvest / Miller Holding",
+    title: "Assistant Site Manager (Placement), Milvest / Miller Holding",
     img: "/uob.jpg",
+    date: "Apr 2022 – May 2022",
     desc: `
-Assisted with daily site coordination on a large-scale government finance complex, supporting site routines and delivery activities. Participated in health & safety activities including toolbox talks and safety walks to reinforce safe working practices on site. Gained practical exposure to construction site management, team coordination, and site safety procedures in a live project environment.
-**Date:** Apr 2022 – May 2022
+Completed a site-based placement on a large-scale government finance complex, assisting with daily site routines and coordination. Engaged in health & safety activities including toolbox talks and safety walks, reinforcing safe working practices on site.
+ 
+**Key Skills:** Site Management, Health & Safety, Construction Delivery
 **Location:** Kinshasa, DR Congo`,
   },
 ];
@@ -101,32 +135,49 @@ export const projects: PortfolioItem[] = [
     slug: "cognitive-digital-twin",
     title: "Cognitive Digital Twin for Building Energy & Operations",
     img: "/uob.jpg",
+    date: "Jan 2025 – Apr 2025",
     desc: `
-Designed and developed a cognitive digital twin for a university office space to improve building energy performance through occupancy-aware HVAC control. Led the integration of environmental sensor data, occupancy prediction, and HVAC simulation within EnergyPlus to evaluate proactive energy optimisation strategies.
-**Technologies:** Python, EnergyPlus, IoT, Machine Learning, Reinforcement Learning, Digital Twins`,
+Developed a digital engineering concept linking occupancy behaviour, environmental conditions, and operational decision-making to improve building performance. Built an end-to-end workflow using IoT sensor data, analytics, and predictive models to support demand-responsive operational strategies. Produced dashboards to communicate insights to non-technical stakeholders.
+ 
+**Technologies:** Python, EnergyPlus, IoT, Machine Learning, Digital Twins`,
   },
   {
     slug: "occupancy-detection",
     title: "Data Science Group Project: Occupancy Detection",
     img: "/uob.jpg",
+    date: "Jan 2025 – Apr 2025",
     desc: `
-Led a group data science project as Team Leader, applying project management techniques to coordinate tasks, manage deadlines, and support effective team collaboration. Applied data science methods including data cleaning, exploratory analysis, feature engineering, and predictive modelling to solve a real-world occupancy detection problem using environmental sensor data.
-**Technologies:** Python, Pandas, Scikit-learn, Feature Engineering, Predictive Modelling`,
+Led a group data science project as Team Leader, coordinating tasks and managing deadlines. Applied data cleaning, exploratory analysis, feature engineering, and predictive modelling to solve a real-world occupancy detection problem using environmental sensor data.
+ 
+**Technologies:** Python, Pandas, Scikit-learn, Predictive Modelling`,
   },
   {
     slug: "bim-model-qc",
     title: "BIM Model Quality Assurance — Campus Digital Twin",
     img: "/uob.jpg",
+    date: "Jan 2024 – Jul 2024",
     desc: `
-Conducted information quality assurance and FM-readiness checks on a campus-wide BIM model in Autodesk Tandem. Created structured issue registers and data-gap logs to identify and resolve inconsistencies in asset data, supporting compliance with ISO 19650 information management standards.
-**Technologies:** Autodesk Tandem, BIM, ISO 19650, Common Data Environment, Digital Twins`,
+Conducted information quality assurance and FM-readiness checks on a campus-wide BIM model in Autodesk Tandem. Created structured issue registers and data-gap logs to resolve inconsistencies in asset data, supporting ISO 19650 compliance.
+ 
+**Technologies:** Autodesk Tandem, BIM, ISO 19650, Common Data Environment`,
+  },
+  {
+    slug: "sustainability-assessment",
+    title: "Sustainability Assessment — Amtico",
+    img: "/uob.jpg",
+    date: "Jul 2025 – Aug 2025",
+    desc: `
+Led a multidisciplinary team to deliver a time-bound sustainability assessment. Produced a client-style report with executive summary translating technical findings into actionable recommendations for decision-making.
+ 
+**Skills:** Project Leadership, Sustainability, Stakeholder Reporting`,
   },
   {
     slug: "portfolio-site",
     title: "Personal Portfolio Website",
     img: "/uob.jpg",
     desc: `
-Built a modular personal portfolio using Next.js and Tailwind CSS v4. Dynamically loads content for education, experience, and projects from a TypeScript data file, ensuring easy scalability and consistent design. Includes Framer Motion for transitions and fully responsive layouts.
+Built a modular personal portfolio using Next.js and Tailwind CSS v4. Dynamically loads content from a TypeScript data file, with Framer Motion transitions and fully responsive layouts.
+ 
 **Technologies:** Next.js, TypeScript, Tailwind CSS, Framer Motion`,
   },
 ];
@@ -135,7 +186,8 @@ Built a modular personal portfolio using Next.js and Tailwind CSS v4. Dynamicall
 // Courses & Certifications
 //
 export const certifications = [
-  { title: "APM Project Fundamentals Qualification (PFQ)", date: "2024" },
+  { title: "APM Project Fundamentals Qualification (PFQ)", date: "In Progress" },
+  { title: "RICS BIM Foundation", date: "In Progress" },
   { title: "BAFCA Level 1 Coaching Certification", date: "2023" },
 ];
  
@@ -144,9 +196,19 @@ export const certifications = [
 //
 export const awards = [
   {
+    title: "Vice President — Civil Engineering Society",
+    date: "2022 – 2023",
+    desc: "Co-led a 120+ member society at the University of Birmingham, delivering 6+ industry events with firms including Skanska, ICE, and Morgan Sindall.",
+  },
+  {
+    title: "Senior Student Representative",
+    date: "2019 – 2024",
+    desc: "Represented 250+ engineering students, co-chairing Student–Staff Forums and contributing to curriculum and student experience improvements.",
+  },
+  {
     title: "Leadership Prize",
     date: "Jul 2019",
-    desc: "Awarded at Lycée Prince de Liège de Kinshasa in recognition of outstanding leadership qualities and contribution to school life.",
+    desc: "Awarded at Lycée Prince de Liège de Kinshasa for outstanding leadership qualities and contribution to school life.",
   },
   {
     title: "Science Excellence Prize",
