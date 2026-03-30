@@ -21,6 +21,13 @@ import Navbar from "@/components/Navbar";
  
 export default function PortfolioPage() {
   const skillCategories: Record<string, string[]> = {
+    "Digital & BIM": [
+      "BIM & Information Management",
+      "Common Data Environment (CDE)",
+      "Autodesk Tandem",
+      "ISO 19650 Awareness",
+      "Digital Twins & EnergyPlus",
+    ],
     "Site & Construction": [
       "Site Coordination",
       "Subcontractor Interface",
@@ -35,13 +42,6 @@ export default function PortfolioPage() {
       "Reporting & Meeting Support",
       "Information Coordination",
     ],
-    "Digital & BIM": [
-      "BIM & Information Management",
-      "Common Data Environment (CDE)",
-      "Autodesk Tandem",
-      "ISO 19650 Awareness",
-      "Digital Twins & EnergyPlus",
-    ],
     "Data Science & ML": [
       "Python, SQL & Excel",
       "Machine Learning & Deep Learning",
@@ -51,7 +51,7 @@ export default function PortfolioPage() {
     ],
   };
  
-  const [selected, setSelected] = useState("Site & Construction");
+  const [selected, setSelected] = useState("Digital & BIM");
  
   return (
     <main className="text-white">
