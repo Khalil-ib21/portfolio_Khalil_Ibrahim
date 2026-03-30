@@ -132,27 +132,27 @@ Site-based placement on a large-scale government finance complex. Assisted with 
 export const projects: PortfolioItem[] = [
   {
     slug: "cognitive-digital-twin",
-    title: "Cognitive Digital Twin — Final Year Project",
-    img: "/fyp.jpg",
-    date: "Jan 2025 – Apr 2025",
+    title: "AI for BIM-FM — Systematic Literature Review & Framework",
+    img: "/bimfm.jpg",
     desc: `
-**Grade: First Class** — MSc Final Year Project, University of Birmingham
+**Grade: First Class** — MEng Civil Engineering Final Year Project, University of Birmingham
+**Supervisor:** Dr Richard Davies
  
-Emerging technologies like Building Information Modelling (BIM), digital twins (DT), and artificial intelligence (AI) are transforming the AEC industry, particularly in the Operation & Maintenance phase. This project explored the potential of integrating these technologies for facility management stakeholders at the University of Birmingham.
+Explored the potential of integrating Building Information Modelling (BIM), digital twins (DT), and artificial intelligence (AI) for facility management (FM) stakeholders in the AEC industry, particularly in the Operation & Maintenance phase.
  
-Conducted a systematic literature review identifying state-of-the-art AI techniques for occupancy modelling — finding supervised learning as the predominant approach, with SVMs, HMMs, and kNN for occupancy prediction, and deep learning for vision-based detection. Complemented this with semi-structured interviews with the UoB Estates team to understand their current BIM-FM approach and identify inefficiencies in existing occupancy metrics.
+Conducted a systematic literature review identifying state-of-the-art AI techniques for occupancy modelling — finding supervised learning as the predominant approach, with SVMs, HMMs, and kNN for occupancy prediction, and deep learning for vision-based detection and counting. Complemented this with semi-structured interviews with the University of Birmingham Estates team to understand their current BIM-FM approach and identify inefficiencies in occupancy metrics across value, effort, and accuracy dimensions.
  
-Based on these findings, developed a theoretical AI-driven BIM-FM framework integrating BIM, digital twin technology, and AI-driven occupancy models to optimise energy and space management. The framework was validated through structured interviews with the Estates team, emphasising its benefits for building management and its potential to facilitate decision-making, achieve energy optimisation, and support sustainability goals.
+Developed a theoretical AI-driven BIM-FM framework integrating BIM, digital twin technology, and AI-driven occupancy models to optimise energy and space management. The framework was validated through structured interviews with the Estates team, emphasising benefits for building management and potential to facilitate decision-making, achieve energy optimisation, and support sustainability goals.
  
 **Key Outcomes**
 - Systematic literature review of AI techniques for occupancy modelling in AEC
 - Semi-structured interviews with UoB Estates team identifying real FM inefficiencies
-- Developed AI-driven BIM-FM framework integrating BIM, Digital Twins, and ML
+- Developed theoretical AI-driven BIM-FM framework integrating BIM, Digital Twins & ML
 - Framework validated with industry stakeholders and proposed for implementation
 - Achieved First Class grade
  
 **Keywords:** BIM, Digital Twins, AI, Facility Management, Occupancy Monitoring, O&M, Energy Optimisation
-**Technologies:** Python, EnergyPlus, BIM, Digital Twins, Machine Learning, Scikit-learn
+**Technologies:** BIM, Digital Twins, Machine Learning, SVMs, HMM, kNN, Deep Learning
 **[View Project Report](/FYP_civileng.pdf)**`,
   },
   {
@@ -206,24 +206,27 @@ The final design incorporated a modular structural system for rapid assembly, on
   },
   {
     slug: "cognitive-digital-twin-ds",
-    title: "Cognitive Digital Twin — Data Science Final Year Project",
+    title: "Cognitive Digital Twin — Final Year Project",
     img: "/fyp.jpg",
-    date: "Jan 2025 – Apr 2025",
+    date: "Jan 2025 – Sep 2025",
     desc: `
-**Grade: First Class** — MSc Data Science Final Year Project, University of Birmingham
+**Grade: First Class** — MSc Data Science & AI Final Year Project, University of Birmingham
+**Supervisor:** Dr Rami Bahsoon
  
-Developed a cognitive digital twin for a university office space to optimise building energy performance through occupancy-aware HVAC control. Built a complete end-to-end pipeline integrating environmental IoT sensor data (temperature, CO₂, humidity, VOC) with machine learning models to predict occupancy in real time.
+Investigated the development of an occupancy-aware control system within a Cognitive Digital Twin (CDT) framework for building energy management. Addressed two key research questions: whether short-horizon occupancy forecasting can achieve sufficient accuracy for operational use, and whether forecast-informed control can reduce energy consumption while maintaining comfort and indoor air quality.
  
-Predictions were fed into EnergyPlus simulations to dynamically adjust HVAC output based on actual demand. Applied reinforcement learning to optimise control strategies over time. Produced interactive dashboards to communicate findings to non-technical stakeholders.
+Using the ROBOD dataset from a university office building, developed a forecasting pipeline based on multi-sensor ensembles achieving MAE ≈ 1.2 occupants and R² ≈ 0.74. These forecasts were integrated into EnergyPlus simulations where proactive HVAC control reduced electricity use by 85% and peak demand by 75% compared to a static schedule. Comfort compliance improved from 39% to 86% within target range, and CO₂ levels remained within ASHRAE 62.1 limits. Reinforcement Learning agents (SAC, PPO) were also tested within the framework.
+ 
+The study demonstrates the feasibility of forecast-driven, occupancy-aware control and provides a modular CDT architecture linking BIM, sensing, analytics, and facility management interfaces — with realistic field deployments expected to achieve 25–40% energy savings, contributing towards net-zero building operation.
  
 **Key Outcomes**
-- End-to-end digital twin pipeline from IoT sensor ingestion to HVAC simulation
-- Real-time occupancy prediction driving demand-responsive energy control
-- Reinforcement learning for adaptive operational decision-making
-- Stakeholder-ready dashboards and formal technical report
+- Forecasting pipeline: MAE ≈ 1.2 occupants, R² ≈ 0.74
+- Proactive HVAC control: 85% electricity reduction, 75% peak demand reduction
+- Comfort compliance improved from 39% → 86%
+- Modular CDT architecture linking BIM, IoT sensing, analytics & FM interfaces
 - Achieved First Class grade
  
-**Technologies:** Python, EnergyPlus, IoT, Machine Learning, Reinforcement Learning, Digital Twins
+**Technologies:** Python, EnergyPlus, IoT, Machine Learning, Reinforcement Learning (SAC, PPO), Digital Twins, BIM
 **[View Project Report](/FYP_dattascience.pdf)**`,
   },
   {
