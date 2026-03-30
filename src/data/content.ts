@@ -51,7 +51,7 @@ A rigorous four-year integrated masters providing deep expertise in civil engine
   {
     slug: "lycee",
     title: "Lycée Prince de Liège de Kinshasa",
-    img: "/uob.jpg",
+    img: "/lycee.jpg",
     date: "Sep 2013 – Jul 2019",
     desc: `
 **Award:** Leadership Prize & Science Excellence Prize
@@ -72,7 +72,7 @@ export const experience: PortfolioItem[] = [
   {
     slug: "data-literacy",
     title: "Data Analyst — Data Literacy Academy",
-    img: "/uob.jpg",
+    img: "/dla.jpg",
     date: "Jan 2026 – Present",
     desc: `
 Managing and correcting CRM data in HubSpot to improve accuracy and support business operations. Performing data quality checks and maintaining sales records to support reporting, pipeline visibility, and operational decision-making.
@@ -83,7 +83,7 @@ Managing and correcting CRM data in HubSpot to improve accuracy and support busi
   {
     slug: "amtico",
     title: "Project & Sustainability Consultant — Amtico",
-    img: "/uob.jpg",
+    img: "/amtico.jpg",
     date: "Jul 2025 – Aug 2025",
     desc: `
 Led a multidisciplinary team to deliver a time-bound sustainability assessment. Structured tasks, maintained delivery to deadline, and produced a client-style report translating findings into practical recommendations.
@@ -94,18 +94,18 @@ Led a multidisciplinary team to deliver a time-bound sustainability assessment. 
   {
     slug: "junior-site-engineer",
     title: "Junior Site Engineer — Private Contractor",
-    img: "/uob.jpg",
+    img: "/contractor.jpg",
     date: "Aug 2024 – Oct 2024",
     desc: `
 Coordinated day-to-day site activities across 4–6 subcontractor teams, managing materials logistics and site access across multiple active work fronts. Maintained 20+ H&S and delivery records supporting audit readiness. Prepared progress reports and identified programme delays, access constraints, and quality issues.
  
-**Skills:** Site Coordination, Subcontractor Management, H&S Compliance, Programme Reporting
+**Skills:** Site Coordination, Subcontractor Interface, H&S Compliance, Programme Reporting
 **Location:** Kinshasa, DR Congo`,
   },
   {
     slug: "bim-intern",
     title: "Project & Digital Delivery Intern — University of Birmingham",
-    img: "/uob.jpg",
+    img: "/bim.jpg",
     date: "Jan 2024 – Jul 2024",
     desc: `
 Supported multidisciplinary project teams by coordinating information and maintaining issue and risk logs across live estates projects. Conducted asset and information quality checks within a Common Data Environment (Autodesk Tandem), supporting effective handover and operational readiness.
@@ -116,7 +116,7 @@ Supported multidisciplinary project teams by coordinating information and mainta
   {
     slug: "milvest",
     title: "Assistant Site Manager — Milvest / Miller Holding",
-    img: "/uob.jpg",
+    img: "/milvest.jpg",
     date: "Apr 2022 – May 2022",
     desc: `
 Site-based placement on a large-scale government finance complex. Assisted with daily site routines, coordination, and health & safety activities including toolbox talks and safety walks.
@@ -133,7 +133,7 @@ export const projects: PortfolioItem[] = [
   {
     slug: "cognitive-digital-twin",
     title: "Cognitive Digital Twin — Building Energy & Operations",
-    img: "/uob.jpg",
+    img: "/bim.jpg",
     date: "Jan 2025 – Apr 2025",
     desc: `
 Developed a digital twin linking occupancy behaviour, environmental conditions, and operational decision-making to improve building energy performance. Built an end-to-end workflow using IoT sensor data, predictive models, and HVAC simulation. Produced dashboards to communicate insights to non-technical stakeholders.
@@ -141,19 +141,9 @@ Developed a digital twin linking occupancy behaviour, environmental conditions, 
 **Technologies:** Python, EnergyPlus, IoT, Machine Learning, Digital Twins`,
   },
   {
-    slug: "occupancy-detection",
-    title: "Occupancy Detection — Data Science Group Project",
-    img: "/uob.jpg",
-    date: "Jan 2025 – Apr 2025",
-    desc: `
-Led a group project as Team Leader, applying data cleaning, feature engineering, and predictive modelling to solve a real-world occupancy detection problem using environmental sensor data.
- 
-**Technologies:** Python, Pandas, Scikit-learn, Predictive Modelling`,
-  },
-  {
     slug: "bim-model-qc",
     title: "BIM Quality Assurance — Campus Digital Twin",
-    img: "/uob.jpg",
+    img: "/bim.jpg",
     date: "Jan 2024 – Jul 2024",
     desc: `
 Conducted FM-readiness and information quality checks on a campus BIM model in Autodesk Tandem. Created issue registers and data-gap logs to resolve asset data inconsistencies and support ISO 19650 compliance.
@@ -163,12 +153,22 @@ Conducted FM-readiness and information quality checks on a campus BIM model in A
   {
     slug: "sustainability-assessment",
     title: "Sustainability Assessment — Amtico",
-    img: "/uob.jpg",
+    img: "/amtico.jpg",
     date: "Jul 2025 – Aug 2025",
     desc: `
 Led a multidisciplinary team to deliver a structured sustainability assessment under tight deadlines. Produced a client-style report with an executive summary translating technical findings into actionable recommendations.
  
 **Skills:** Project Leadership, Sustainability, Stakeholder Reporting`,
+  },
+  {
+    slug: "occupancy-detection",
+    title: "Occupancy Detection — Data Science Group Project",
+    img: "/bim.jpg",
+    date: "Jan 2025 – Apr 2025",
+    desc: `
+Led a group project as Team Leader, coordinating tasks and managing deadlines. Applied data cleaning, feature engineering, and predictive modelling to solve a real-world occupancy detection problem using environmental sensor data.
+ 
+**Technologies:** Python, Pandas, Scikit-learn, Predictive Modelling`,
   },
   {
     slug: "portfolio-site",
@@ -226,4 +226,3 @@ export const allItems = {
   certifications,
   awards,
 };
- 
