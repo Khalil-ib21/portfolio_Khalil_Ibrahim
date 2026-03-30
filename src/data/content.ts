@@ -92,8 +92,8 @@ Led a multidisciplinary team to deliver a time-bound sustainability assessment. 
 **Location:** Birmingham, UK`,
   },
   {
-    slug: "Junior-Site-engineer",
-    title: "Site Management Internship — Private Contractor",
+    slug: "junior-site-engineer",
+    title: "Junior Site Engineer — Private Contractor",
     img: "/contractor.jpg",
     date: "Aug 2024 – Oct 2024",
     desc: `
@@ -206,7 +206,7 @@ The final design incorporated a modular structural system for rapid assembly, on
   },
   {
     slug: "cognitive-digital-twin-ds",
-    title: "Cognitive Digital Twin — Final Year Project",
+    title: "Proactive HVAC Control Using Occupancy Forecasts & Reinforcement Learning",
     img: "/fyp.jpg",
     date: "Jan 2025 – Sep 2025",
     desc: `
@@ -307,3 +307,4 @@ export const allItems = {
   certifications,
   awards,
 };
+ 
