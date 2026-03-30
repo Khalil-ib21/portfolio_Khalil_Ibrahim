@@ -1,11 +1,11 @@
 "use client";
-
+ 
 import { motion } from "framer-motion";
-
+ 
 export default function ContactForm() {
   return (
     <motion.form
-      action="https://formspree.io/f/xanpvkre"
+      action="https://formspree.io/f/xdapgrpz"
       method="POST"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -13,9 +13,9 @@ export default function ContactForm() {
       className="max-w-lg mx-auto bg-neutral-900 p-8 rounded-2xl shadow-[0_0_10px_rgba(6,182,212,0.15)] border border-neutral-800 space-y-4"
     >
       <h2 className="text-2xl font-semibold text-center text-neutral-100 mb-4">
-        Let’s Connect
+        Let's Connect
       </h2>
-
+ 
       <input
         type="text"
         name="name"
@@ -23,7 +23,7 @@ export default function ContactForm() {
         className="w-full bg-neutral-800 rounded-lg px-4 py-2 text-neutral-200 placeholder-neutral-500 focus:outline-none focus:ring-1 focus:ring-cyan-400"
         required
       />
-
+ 
       <input
         type="email"
         name="_replyto"
@@ -31,7 +31,7 @@ export default function ContactForm() {
         className="w-full bg-neutral-800 rounded-lg px-4 py-2 text-neutral-200 placeholder-neutral-500 focus:outline-none focus:ring-1 focus:ring-cyan-400"
         required
       />
-
+ 
       <textarea
         name="message"
         rows={4}
@@ -39,7 +39,7 @@ export default function ContactForm() {
         className="w-full bg-neutral-800 rounded-lg px-4 py-2 text-neutral-200 placeholder-neutral-500 focus:outline-none focus:ring-1 focus:ring-cyan-400"
         required
       />
-
+ 
       <button
         type="submit"
         className="w-full bg-cyan-600 hover:bg-cyan-500 text-white py-2 rounded-lg font-medium transition"
