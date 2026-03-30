@@ -104,7 +104,7 @@ Coordinated day-to-day site activities across 4–6 subcontractor teams, managin
   },
   {
     slug: "bim-intern",
-    title: "Project & Digital Delivery Intern — University of Birmingham",
+    title: "BIM & Digital Twins Intern — University of Birmingham",
     img: "/bim.jpg",
     date: "Jan 2024 – Jul 2024",
     desc: `
@@ -132,21 +132,48 @@ Site-based placement on a large-scale government finance complex. Assisted with 
 export const projects: PortfolioItem[] = [
   {
     slug: "cognitive-digital-twin",
-    title: "Cognitive Digital Twin — Building Energy & Operations",
+    title: "Cognitive Digital Twin — Final Year Project",
     img: "/bim.jpg",
     date: "Jan 2025 – Apr 2025",
     desc: `
-Developed a digital twin linking occupancy behaviour, environmental conditions, and operational decision-making to improve building energy performance. Built an end-to-end workflow using IoT sensor data, predictive models, and HVAC simulation. Produced dashboards to communicate insights to non-technical stakeholders.
+Developed a digital twin for a university office space linking occupancy behaviour, environmental conditions, and HVAC simulation to improve building energy performance. Built an end-to-end workflow using IoT sensor data, predictive models, and EnergyPlus simulation. Produced dashboards to communicate insights to non-technical stakeholders.
  
-**Technologies:** Python, EnergyPlus, IoT, Machine Learning, Digital Twins`,
+**Technologies:** Python, EnergyPlus, IoT, Machine Learning, Reinforcement Learning, Digital Twins
+**[View Project Report](/FYP_Report.pdf)**`,
+  },
+  {
+    slug: "occupancy-detection",
+    title: "Occupancy Monitoring & Energy Forecasting — MSc Group Project",
+    img: "/bim.jpg",
+    date: "Jan 2025 – Apr 2025",
+    desc: `
+**Team Leader** — Led a team of 5 to develop occupancy prediction and energy forecasting models using environmental sensor data. Managed weekly meetings, coordinated task delegation, and ensured timely milestone delivery.
+ 
+Implemented XGBoost (R² = 0.9502) for occupancy prediction and a CNN-LSTM hybrid model (R² = 0.9400, RMSE = 285.92) for multi-step energy forecasting. Applied SARIMA and SARIMAX as baseline forecasting models for comparison.
+ 
+**Technologies:** Python, XGBoost, CNN-LSTM, SARIMA, Pandas, Scikit-learn
+**[View Project Report](/DSGP_Report.pdf)**`,
+  },
+  {
+    slug: "idp",
+    title: "Rapid Response Medical Unit — Integrated Design Project",
+    img: "/uob.jpg",
+    date: "Oct 2023 – Apr 2024",
+    desc: `
+**Team Leader** — Led an interdisciplinary team of civil, electrical, and mechanical engineers to design a deployable rapid-response healthcare facility for conflict zones. Coordinated collaboration across disciplines, managed project timelines using Gantt charts, conducted SWOT analysis, and ensured effective communication throughout.
+ 
+Delivered a complete design solution including structural layout, MEP integration, and sustainability considerations aligned with real-world deployment constraints.
+ 
+**Tools:** AutoCAD, Revit, MS Project, Gantt Charts, SWOT Analysis
+**[View Project Report](/IDP_Report.pdf)**`,
   },
   {
     slug: "bim-model-qc",
-    title: "BIM Quality Assurance — Campus Digital Twin",
+    title: "BIM & Digital Twins Internship — Campus Digital Twin",
     img: "/bim.jpg",
     date: "Jan 2024 – Jul 2024",
     desc: `
-Conducted FM-readiness and information quality checks on a campus BIM model in Autodesk Tandem. Created issue registers and data-gap logs to resolve asset data inconsistencies and support ISO 19650 compliance.
+Conducted FM-readiness and information quality checks on the UoB campus BIM model in Autodesk Tandem. Created issue registers and data-gap logs to resolve asset data inconsistencies and support ISO 19650 compliance. Assisted in integrating facility systems into the digital twin framework.
  
 **Technologies:** Autodesk Tandem, BIM, ISO 19650, Common Data Environment`,
   },
@@ -159,16 +186,6 @@ Conducted FM-readiness and information quality checks on a campus BIM model in A
 Led a multidisciplinary team to deliver a structured sustainability assessment under tight deadlines. Produced a client-style report with an executive summary translating technical findings into actionable recommendations.
  
 **Skills:** Project Leadership, Sustainability, Stakeholder Reporting`,
-  },
-  {
-    slug: "occupancy-detection",
-    title: "Occupancy Detection — Data Science Group Project",
-    img: "/bim.jpg",
-    date: "Jan 2025 – Apr 2025",
-    desc: `
-Led a group project as Team Leader, coordinating tasks and managing deadlines. Applied data cleaning, feature engineering, and predictive modelling to solve a real-world occupancy detection problem using environmental sensor data.
- 
-**Technologies:** Python, Pandas, Scikit-learn, Predictive Modelling`,
   },
   {
     slug: "portfolio-site",
