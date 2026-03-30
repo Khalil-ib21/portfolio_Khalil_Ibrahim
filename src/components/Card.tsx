@@ -15,7 +15,7 @@ export default function Card({
       whileHover={{
         scale: 1.04,
         y: -6,
-        boxShadow: "0 0 35px rgba(6,182,212,0.35)",
+        boxShadow: "0 0 35px rgba(24, 185, 214, 0.89)",
       }}
       transition={{ type: "spring", stiffness: 260, damping: 20 }}
       className={`
