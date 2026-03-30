@@ -25,9 +25,10 @@ export const education: PortfolioItem[] = [
 Developed strong capabilities in applying data-driven methods to real-world engineering challenges. Culminating project focused on cognitive digital twins for smart building energy management — integrating IoT sensor data, occupancy prediction, and HVAC simulation within EnergyPlus.
  
 **Key Modules**
-- Machine Learning & Predictive Modelling
-- Data Engineering & SQL
+- Machine Learning 
+- Storing and Managing Data 
 - IoT Systems & Sensor Data Integration
+- Data Visualisation
 - Research Methods & Statistical Analysis
 - Group Data Science Project`,
   },
@@ -39,7 +40,7 @@ Developed strong capabilities in applying data-driven methods to real-world engi
     desc: `
 **Degree:** MEng Civil Engineering
 **Classification:** 2:1 (Upper Second-Class Honours)
-**Focus Areas:** Project Delivery, BIM, Digital Engineering, Structural Analysis
+**Focus Areas:**  Structural Engineering, Digital Engineering, Geotechnical Engineering, Material Engineering, Construction Management, Integrated Design Project
  
 A rigorous four-year integrated masters providing deep expertise in civil engineering design, project management, and digital construction methods. Actively involved in student leadership, representing 250+ students and delivering industry events with firms including Skanska, ICE, and Morgan Sindall.
  
