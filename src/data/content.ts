@@ -133,7 +133,7 @@ export const projects: PortfolioItem[] = [
   {
     slug: "cognitive-digital-twin",
     title: "AI for BIM-FM — Systematic Literature Review & Framework",
-    img: "/bimfm.jpg",
+    img: "/BIM_FM.PNG",
     desc: `
 **Grade: First Class** — MEng Civil Engineering Final Year Project, University of Birmingham
 **Supervisor:** Dr Richard Davies
@@ -307,4 +307,3 @@ export const allItems = {
   certifications,
   awards,
 };
- 
