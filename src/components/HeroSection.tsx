@@ -38,7 +38,7 @@ export default function HeroSection() {
           Khalil Ibrahim
         </h1>
         <p className="text-neutral-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Data Science & Civil Engineering — Building intelligent systems, digital twins, and data-driven solutions.
+          Civil Engineer — Construction Management · Project Delivery · Digital & BIM
         </p>
  
         {/* Social Links */}
