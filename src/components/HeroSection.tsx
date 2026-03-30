@@ -18,11 +18,7 @@ export default function HeroSection() {
         <motion.div
           className="relative mb-8"
           animate={{ y: [0, -12, 0] }}
-          transition={{
-            duration: 4,
-            ease: "easeInOut",
-            repeat: Infinity,
-          }}
+          transition={{ duration: 4, ease: "easeInOut", repeat: Infinity }}
         >
           <Image
             src="/profile.jpg"
@@ -33,10 +29,12 @@ export default function HeroSection() {
           />
         </motion.div>
  
-        {/* Title and Description */}
+        {/* Name */}
         <h1 className="text-4xl md:text-6xl font-bold mb-3 text-white overflow-hidden whitespace-nowrap border-r-4 border-cyan-400 animate-typing">
           Khalil Ibrahim
         </h1>
+ 
+        {/* Tagline */}
         <p className="text-neutral-400 max-w-2xl mx-auto mb-10 leading-relaxed">
           Civil Engineer — Construction Management · Project Delivery · Digital & BIM
         </p>
@@ -66,9 +64,9 @@ export default function HeroSection() {
           </Link>
         </div>
  
-        {/* View CV Button */}
+        {/* CV Button */}
         <motion.a
-          href="/Khalil_Ibrahim_CV.pdf"
+          href="/KHALIL_IBRAHIM_CV_.pdf"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.05 }}

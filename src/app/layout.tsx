@@ -1,17 +1,13 @@
+import type { Metadata } from "next";
 import "./globals.css";
-import { Inter, Space_Mono } from "next/font/google";
 import BackgroundMusic from "@/components/BackgroundMusic";
-import Link from "next/link";
-import { Analytics } from "@vercel/analytics/next"; // ✅ correct import
-
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const mono = Space_Mono({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-mono" });
-
-export const metadata = {
-  title: "Khalil Ibrahim"
-  description: "Personal portfolio of Khalil Ibrahim — Civil Engineering & Data Science"
+import { Analytics } from "@vercel/analytics/next";
+ 
+export const metadata: Metadata = {
+  title: "Khalil Ibrahim",
+  description: "Personal portfolio of Khalil Ibrahim — Civil Engineer & Project Manager",
 };
-
+ 
 export default function RootLayout({
   children,
 }: {
@@ -19,18 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.variable} ${mono.variable} antialiased bg-[#0d0d0d] text-white relative`}
-      >
-        {/* === Global Top Controls === */}
+      <body className="antialiased bg-[#0d0d0d] text-white relative">
         <div className="absolute top-6 left-6 z-50">
           <BackgroundMusic />
         </div>
-
-        {/* === Page Content === */}
         {children}
-
-        {/* === Analytics === */}
         <Analytics />
       </body>
     </html>

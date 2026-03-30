@@ -8,7 +8,6 @@ import SectionTitle from "./SectionTitle";
 export default function ContactSection() {
   return (
     <section className="relative flex flex-col justify-between bg-gradient-to-b from-[#111111] to-[#0d0d0d] text-center min-h-screen">
-      {/* Main Contact Content */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -20,14 +19,10 @@ export default function ContactSection() {
           Get in <span className="text-cyan-400">Touch!</span>
         </SectionTitle>
  
-        {/* Short message */}
         <p className="text-neutral-300 max-w-xl mx-auto mt-6 mb-8 leading-relaxed">
-          I love connecting with people who build, create, and think differently. 
-          Whether you're starting something new or looking to collaborate, 
-          feel free to reach out.
+          I am actively looking for opportunities in construction management, project management, and digital delivery. Whether you have a role, a project, or just want to connect — feel free to reach out.
         </p>
  
-        {/* Contact button */}
         <div className="flex justify-center mb-10">
           <Link
             href="/contact"
@@ -37,7 +32,6 @@ export default function ContactSection() {
           </Link>
         </div>
  
-        {/* Social Links */}
         <div className="flex justify-center gap-6 text-neutral-400 mb-16">
           <Link
             href="https://github.com/Khalil-ib21"
@@ -62,27 +56,16 @@ export default function ContactSection() {
         </div>
       </motion.div>
  
-      {/* Scroll-to-top button */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="
-          absolute bottom-30 right-6
-          sm:bottom-25 sm:right-10
-          bg-[#06b6d4] hover:bg-[#0ea5e9] text-white
-          rounded-lg flex items-center justify-center
-          shadow-[0_0_15px_rgba(6,182,212,0.25)] transition
-          w-[38px] h-[38px]
-        "
+        className="absolute bottom-30 right-6 sm:bottom-25 sm:right-10 bg-[#06b6d4] hover:bg-[#0ea5e9] text-white rounded-lg flex items-center justify-center shadow-[0_0_15px_rgba(6,182,212,0.25)] transition w-[38px] h-[38px]"
         aria-label="Scroll to top"
       >
         <ArrowUp size={16} strokeWidth={2.5} />
       </button>
  
-      {/* Footer */}
       <footer className="border-t border-neutral-800 text-neutral-400 text-sm py-6 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between">
-        <p>
-          © {new Date().getFullYear()} Khalil&nbsp;Ibrahim | All rights reserved.
-        </p>
+        <p>© {new Date().getFullYear()} Khalil Ibrahim | All rights reserved.</p>
         <a
           href="https://github.com/Khalil-ib21/portfolio_Khalil_Ibrahim"
           target="_blank"

@@ -20,7 +20,6 @@ import { useState } from "react";
 import Navbar from "@/components/Navbar";
  
 export default function PortfolioPage() {
-  // Skill categories
   const skillCategories: Record<string, string[]> = {
     "Project & Site Management": [
       "Site Coordination",
@@ -65,17 +64,16 @@ export default function PortfolioPage() {
       "Plotly",
       "HubSpot CRM",
       "Data Governance",
-      "Revenue Operations",
     ],
   };
-  const [selected, setSelected] = useState("Languages");
+ 
+  const [selected, setSelected] = useState("Project & Site Management");
  
   return (
     <main className="text-white">
       <div className="absolute top-6 left-1/2 -translate-x-1/2 z-50">
         <Navbar />
       </div>
-      {/* Top-right contact button */}
       <div className="absolute top-6 right-6 z-50">
         <Link
           href="/contact"
@@ -85,10 +83,10 @@ export default function PortfolioPage() {
         </Link>
       </div>
  
-      {/* ===== HERO ===== */}
+      {/* HERO */}
       <HeroSection />
  
-      {/* ===== PROFILE ===== */}
+      {/* ABOUT */}
       <section id="about" className="bg-[#1a1a1a] px-6 py-20 text-center">
         <SectionTitle>About <span className="text-cyan-400">Me</span></SectionTitle>
         <p className="max-w-3xl mx-auto text-neutral-400 leading-relaxed">
@@ -96,7 +94,7 @@ export default function PortfolioPage() {
         </p>
       </section>
  
-      {/* ===== SKILLS ===== */}
+      {/* SKILLS */}
       <section id="skills" className="bg-[#222222] px-6 py-20 text-center">
         <SectionTitle>Technical <span className="text-cyan-400">Expertise</span></SectionTitle>
         <FilterTabs
@@ -115,44 +113,31 @@ export default function PortfolioPage() {
         </div>
       </section>
  
-      {/* ===== PROJECTS ===== */}
+      {/* PROJECTS */}
       <section id="projects" className="bg-[#242424] px-6 py-20">
         <SectionTitle>Recent <span className="text-cyan-400">Projects</span></SectionTitle>
         <ProjectGrid items={projects} />
       </section>
  
-      {/* ===== EXPERIENCE ===== */}
+      {/* EXPERIENCE */}
       <section id="experience" className="bg-[#1f1f1f] px-6 py-20 relative">
         <SectionTitle>Professional <span className="text-purple-500">Experience</span></SectionTitle>
         <ExperienceCarousel items={experience} />
       </section>
  
-      {/* ===== EDUCATION ===== */}
+      {/* EDUCATION */}
       <section id="education" className="bg-gradient-to-b from-[#1c1c1c] to-[#262626] px-6 py-20">
         <SectionTitle>
           <span className="text-white">Education</span>
         </SectionTitle>
- 
         <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
           {education.map((edu, i) => (
             <Link
               key={i}
               href={`/education/${edu.slug}`}
-              className="
-                group relative block rounded-2xl overflow-hidden 
-                bg-gradient-to-br from-[#1a1a1a] to-[#222222]
-                border border-neutral-800
-                shadow-[0_8px_20px_rgba(0,0,0,0.6),inset_0_1px_0_rgba(255,255,255,0.05)]
-                transform transition-all duration-300 ease-out
-                hover:-translate-y-2 hover:scale-[1.02]
-                hover:shadow-[0_12px_30px_rgba(6,182,212,0.25),inset_0_1px_0_rgba(255,255,255,0.08)]
-                hover:border-cyan-500/50
-              "
+              className="group relative block rounded-2xl overflow-hidden bg-gradient-to-br from-[#1a1a1a] to-[#222222] border border-neutral-800 shadow-[0_8px_20px_rgba(0,0,0,0.6),inset_0_1px_0_rgba(255,255,255,0.05)] transform transition-all duration-300 ease-out hover:-translate-y-2 hover:scale-[1.02] hover:shadow-[0_12px_30px_rgba(6,182,212,0.25),inset_0_1px_0_rgba(255,255,255,0.08)] hover:border-cyan-500/50"
             >
-              {/* Top Light Edge (gives 3D illusion) */}
               <div className="absolute inset-0 bg-gradient-to-t from-transparent to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
- 
-              {/* Image */}
               <Image
                 src={edu.img}
                 alt={edu.title}
@@ -160,29 +145,14 @@ export default function PortfolioPage() {
                 height={240}
                 className="object-cover w-full h-44 rounded-t-2xl opacity-90 group-hover:opacity-100 transition duration-300"
               />
- 
-              {/* Content */}
               <div className="p-5 text-center">
                 <h3 className="text-lg font-semibold text-white group-hover:text-cyan-400 transition">
                   {edu.title}
                 </h3>
- 
                 {edu.date && (
                   <p className="text-sm text-neutral-500 mt-1">{edu.date}</p>
                 )}
- 
-                {/* Description Preview (3 lines only) */}
-                <p
-                  className="
-                    text-neutral-400 text-sm mt-3 leading-relaxed
-                    line-clamp-3
-                    overflow-hidden
-                    text-ellipsis
-                    max-h-[4.5rem]
-                    transition-all
-                    group-hover:text-neutral-300
-                  "
-                >
+                <p className="text-neutral-400 text-sm mt-3 leading-relaxed line-clamp-3 overflow-hidden text-ellipsis max-h-[4.5rem] transition-all group-hover:text-neutral-300">
                   {edu.desc.replace(/\*\*/g, "").replace(/<br\s*\/?>/g, " ")}
                 </p>
               </div>
@@ -191,7 +161,7 @@ export default function PortfolioPage() {
         </div>
       </section>
  
-      {/* ===== COURSES & CERTIFICATIONS ===== */}
+      {/* COURSES & CERTIFICATIONS */}
       <section id="certifications" className="bg-[#2b2b2b] px-6 py-20">
         <SectionTitle>Courses & <span className="text-cyan-400">Certifications</span></SectionTitle>
         <div className="overflow-x-auto">
@@ -214,7 +184,7 @@ export default function PortfolioPage() {
         </div>
       </section>
  
-      {/* ===== AWARDS ===== */>}
+      {/* AWARDS */}
       <section id="awards" className="bg-[#1a1a1a] px-6 py-20">
         <SectionTitle>Honours & <span className="text-cyan-400">Achievements</span></SectionTitle>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -230,7 +200,7 @@ export default function PortfolioPage() {
         </div>
       </section>
  
-      {/* ...other sections */}
+      {/* CONTACT */}
       <div id="contact">
         <ContactSection />
       </div>
