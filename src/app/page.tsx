@@ -25,24 +25,23 @@ export default function PortfolioPage() {
       "Site Coordination",
       "Subcontractor Interface",
       "Constructability Awareness",
-      "Method Statement Awareness",
       "Quality Documentation",
       "H&S Compliance",
       "Toolbox Talks & Safety Walks",
       "Materials Logistics",
       "Progress Reporting",
+      "Method Statement Awareness",
     ],
-    "Project Management": [
+    "Project Controls & Delivery": [
       "Programme Support",
-      "Action / Risk / Issue Logs",
+      "Risk & Issue Logs",
+      "Action Tracking",
       "Stakeholder Coordination",
       "Reporting Packs",
-      "Meeting Minutes",
+      "Meeting Facilitation",
       "Change Awareness",
-      "APM PFQ (In Progress)",
-      "RICS BIM Foundation (In Progress)",
     ],
-    "Digital & BIM": [
+    "Digital Engineering & BIM": [
       "BIM & Information Management",
       "Autodesk Tandem",
       "Common Data Environment (CDE)",
@@ -53,7 +52,7 @@ export default function PortfolioPage() {
       "AutoCAD",
       "Revit",
     ],
-    "Data & Tools": [
+    "Data & Analytical Tools": [
       "Python",
       "SQL",
       "Microsoft Excel",
@@ -61,7 +60,6 @@ export default function PortfolioPage() {
       "HubSpot CRM",
       "Pandas",
       "Plotly",
-      "Data Governance",
       "IoT Sensor Integration",
     ],
   };
@@ -89,7 +87,7 @@ export default function PortfolioPage() {
       <section id="about" className="bg-[#1a1a1a] px-6 py-20 text-center">
         <SectionTitle>About <span className="text-cyan-400">Me</span></SectionTitle>
         <p className="max-w-3xl mx-auto text-neutral-400 leading-relaxed">
-          Graduate Civil Engineer with experience supporting project delivery across both live construction sites and client-side estates teams. Strong foundation in site coordination, health & safety, quality documentation, and programme support — with growing capability in project controls and digital engineering. Comfortable working with contractors, consultants, and stakeholders to translate technical requirements into practical delivery actions. Motivated to develop within a civil engineering, project management, or digital delivery graduate role, contributing to safer, more efficient, and data-driven project outcomes.
+          Graduate Civil Engineer with hands-on experience across live construction sites and client-side estates teams. Skilled in site coordination, health & safety, quality documentation, and programme support — with growing capability in project controls and digital engineering. Comfortable working with contractors, consultants, and stakeholders to turn technical requirements into practical delivery. Actively pursuing a graduate role in civil engineering, project management, or digital delivery.
         </p>
       </section>
  
