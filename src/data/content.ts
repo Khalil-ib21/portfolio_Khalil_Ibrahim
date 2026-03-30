@@ -1,5 +1,5 @@
 // /data/content.ts
-
+ 
 export interface PortfolioItem {
   slug: string;
   title: string;
@@ -7,320 +7,164 @@ export interface PortfolioItem {
   desc: string;
   date?: string;
 }
-
+ 
 //
 // Education
 //
 export const education: PortfolioItem[] = [
   {
-    slug: "uob",
+    slug: "uob-msc",
     title: "University of Birmingham",
     img: "/uob.jpg",
-    date: "Sep 2022 – Jun 2026",
+    date: "Sep 2024 – Sep 2025",
     desc: `
-**Degree:** MSci Computer Science with a Year in Industry  
-**Expected Classification:** First-Class Honours  
-**Focus Areas:** Artificial Intelligence and Security  
-**Notable Achievements:** Teaching Assistant for OOP, recipient of the International Excellence Scholarship. <br />
-The University of Birmingham has provided me with an academically rigorous yet highly practical foundation in Computer Science. Across four years, I have developed expertise spanning software architecture, artificial intelligence, data systems, and dependable software engineering. The program’s structure encourages both research depth and interdisciplinary integration, combining algorithmic precision with large-scale system design. <br />
-**Year 1**  
-    - Object-Oriented Programming  
-    - Mathematical and Logical Foundations of Computer Science  
-    - Theories of Computation  
-    - Data Structures and Algorithms  
-    - Artificial Intelligence 1  
-    - Full Stack Application Development  <br />
-**Year 2**  
-    - Functional Programming
-    - Artificial Intelligence 2  
-    - AI Team Project
-    - Security and Networks  
-    - Operating Systems in C
-    - Software Engineering and Professional Practice  <br />
-**Year 3**  
-    - Machine Learning  
-    - Neural Computation  
-    - Natural Language Processing  
-    - Evolutionary Computation
-    - Security of Real World Systems  
-    - Dependable and Distributed Systems  <br />
-**Year 4**  
-    - Computer Vision  
-    - Secure Software and Hardware Systems  
-    - Advanced Networking  <br />`,
+**Degree:** MSc Data Science  
+**Classification:** First Class Honours  
+**Focus Areas:** Machine Learning, Data Engineering, IoT Systems, Digital Twins  <br />
+The MSc Data Science program at the University of Birmingham deepened my expertise in applying data-driven methods to real-world engineering and operational challenges. Through rigorous coursework and hands-on projects, I developed strong skills in predictive modelling, occupancy forecasting, sensor data integration, and simulation — culminating in a final year project on cognitive digital twins for smart building energy management. <br />
+**Key Modules**
+- Machine Learning & Predictive Modelling
+- Data Engineering & SQL
+- IoT Systems & Sensor Data Integration
+- Research Methods & Statistical Analysis
+- Group Data Science Project <br />`,
   },
   {
-    slug: "hkust",
-    title: "Hong Kong University of Science and Technology (HKUST)",
-    img: "/hkust.jpg",
-    date: "Jun 2024 – Aug 2024",
+    slug: "uob-meng",
+    title: "University of Birmingham",
+    img: "/uob.jpg",
+    date: "Sep 2020 – Jul 2024",
     desc: `
-**Program:** Global Exchange Program  
-**Academic Standing:** Distinction  
-**Focus Areas:** Database Systems, Innovation, and Entrepreneurship  <br />
-My exchange at HKUST was a globally enriching experience that expanded my understanding of how technical innovation drives organisational growth. Immersed in one of Asia’s leading technological ecosystems, I explored how computing infrastructure, business models, and cross-cultural collaboration intersect in modern tech environments. <br />
-**Modules Studied**  
-    - Database Management Systems  
-    - Business and Innovation in Technology <br />
-These courses offered a comprehensive look into how data systems and business innovation co-evolve. The Database module strengthened my skills in query optimisation, relational schema design, and concurrency control, while the Innovation module challenged me to evaluate how emerging technologies shape competitive advantage. <br />
-**Projects and Research Highlights**  
-    - Conducted a research-based analysis on Lockheed Martin’s technological diversification and R&D investment strategy.  
-    - Developed a case study on data-driven entrepreneurship for Southeast Asian markets. <br />
-Working within a diverse, international cohort helped refine my communication and collaboration skills while reinforcing my adaptability in multidisciplinary settings. <br />`
+**Degree:** MEng Civil Engineering  
+**Classification:** 2:1 (Upper Second-Class Honours)  
+**Focus Areas:** BIM, Digital Delivery, Structural Engineering, Project Management  <br />
+My MEng in Civil Engineering gave me a strong foundation in infrastructure design, project delivery, and digital construction methods. I was actively involved in student leadership throughout my degree, serving as Senior Student Representative and Vice President of the Civil Engineering Society. <br />
+**Notable Activities**
+- Senior Student Representative, School of Engineering (2022–2024)
+- Vice President, Civil Engineering Society (2022–2023)
+- Running Backs Coach, Birmingham Lions American Football Team (2023–Present) <br />`,
   },
   {
-    slug: "ncuk",
-    title: "NCUK Engineering International Foundation Year",
+    slug: "lycee",
+    title: "Lycée Prince de Liège de Kinshasa",
     img: "/ncuk.jpg",
-    date: "Sep 2021 – Jun 2022",
+    date: "Sep 2013 – Jul 2019",
     desc: `
-**Award:** Valedictorian  
-**Final Grade:** 81% average (A* in Mathematics, Physics, and Chemistry)  
-**Distinction:** NCUK Prize for Academic Excellence  <br />
-The NCUK Engineering International Foundation Year marked the beginning of my academic journey in computing. It introduced me to the discipline, precision, and analytical mindset essential for success in higher education. The program emphasized STEM integration, merging mathematical rigor, experimental reasoning, and problem-solving frameworks aligned with UK academic standards. <br />
-**Modules Studied**  
-    - Mathematics  
-    - Physics 
-    - Chemistry  
-    - English for Academic Purposes  <br />
-**Academic Achievements and Activities**  
-    - Graduated as Valedictorian, maintaining top results across all subjects.  
-    - Delivered the closing address at the Academic Excellence Ceremony.  
-    - Represented NCUK at student outreach programs.  <br />
-This foundation year established the intellectual discipline and curiosity that define my approach to computer science today. It built the bridge between raw problem-solving ability and structured innovation, preparing me for the challenges of advanced AI and systems engineering.`,
+**Award:** Leadership Prize & Science Excellence Prize  
+**Final Grade:** 19.0 / 20  <br />
+Graduated with distinction from one of Kinshasa's leading secondary schools, achieving a near-perfect final grade and recognition for both academic excellence and leadership qualities. This foundation instilled the discipline and intellectual curiosity that continues to drive my work in data science and engineering today. <br />
+**Achievements**
+- Recipient of the Leadership Prize
+- Recipient of the Science Excellence Prize
+- Overall final grade of 19.0/20 <br />`,
   },
 ];
-
-
+ 
+ 
 //
 // Experience
 //
 export const experience: PortfolioItem[] = [
   {
-    slug: "sjtu",
-    title: "Research Placement, Shanghai Jiao Tong University",
-    img: "/sjtu.jpg",
-    desc: `
-Worked on deep learning methods for liver fibrosis detection using Whole Slide Images (WSIs), focusing on building segmentation and preprocessing pipelines for histopathological data. Integrated the StreamingCNN framework with multiresolution image access to handle large WSIs efficiently, and developed automated workflows for mask generation, color normalization, and artifact removal. Contributed to evaluating model performance across different architectures and magnifications, optimizing data throughput for gigapixel-scale slides. Collaborated with researchers to test and benchmark segmentation pipelines, ensuring reproducibility and dependable inference across datasets.  <br />
-**Date:** Jun 2025 – Aug 2025  
-**Link:** [Shanghai Jiao Tong University](https://www.sjtu.edu.cn)
-`,
-  },
-
-  {
-    slug: "ta",
-    title: "Teaching Assistant, University of Birmingham",
+    slug: "data-literacy",
+    title: "Data Analyst Intern, Data Literacy Academy",
     img: "/ta.jpg",
     desc: `
-Supported over 80 Computer Science students in Object-Oriented Programming by assisting in lab sessions, debugging exercises, and explaining software design concepts. Helped improve student understanding of Java fundamentals through practical problem-solving.  <br />
-**Date:** Sep 2024 – Dec 2024  
-**Link:** [University of Birmingham](https://www.birmingham.ac.uk)
+Work within the RevOps and Data team to manage, review, and correct data in HubSpot, improving CRM accuracy and supporting smoother business operations. Perform data quality checks and maintain sales and customer records to support reporting, pipeline visibility, and operational decision-making. Building practical experience in HubSpot CRM, Revenue Operations, data governance, sales operations, and analytical problem-solving. <br />
+**Date:** Jan 2026 – Present  
+**Location:** Birmingham, UK
 `,
   },
-
   {
-    slug: "integra",
-    title: "Full Stack Developer, Integra & Co",
+    slug: "bim-intern",
+    title: "BIM & Digital Delivery Intern, University of Birmingham Estates",
     img: "/integra.jpg",
     desc: `
-Developed the organisation's website and internal admin dashboard using React, Next.js, and Firebase. Implemented analytics, authentication, and responsive design components while ensuring clean UI performance.  <br />
-**Date:** Dec 2024 – Feb 2025  
-**Link:** [Integra & Co](https://integra-qis3j43cx-miaws-projects.vercel.app/)
+Conducted FM-readiness and information quality assurance of a campus BIM model in Autodesk Tandem within a Common Data Environment. Created and maintained issue registers and data-gap logs, supporting the resolution of missing, incomplete, and inconsistent asset information. Developed skills in BIM, digital twins, information governance, ISO 19650-aligned checking, and stakeholder coordination. <br />
+**Date:** Jan 2024 – Jul 2024  
+**Location:** Birmingham, UK
 `,
   },
-
   {
-    slug: "research-assistant",
-    title: "Research Assistant, University of Birmingham",
+    slug: "milvest",
+    title: "Assistant Site Manager Intern, Milvest / Miller Holding",
     img: "/neural.jpg",
     desc: `
-Worked on surface EMG signal analysis for human activity recognition. Focused on collecting and preprocessing EMG data, preparing datasets for neural network training, and running experiments to observe signal variations during different movements. <br />
-**Date:** Jan 2024 – May 2024  
-**Link:** [University of Birmingham Research](https://www.birmingham.ac.uk)
-`,
-  },
-
-  {
-    slug: "clic",
-    title: "Web Developer Intern, Clic Editions",
-    img: "/clic.jpg",
-    desc: `
-Contributed to developing a legal document search platform by improving search logic, front-end accessibility, and overall performance. Focused on optimising user experience and interface design through iterative updates.  <br />
-**Date:** Jul 2023 – Aug 2023  
-**Link:** [Clic Editions](https://www.cliceditions.com)
-`,
-  },
-
-  {
-    slug: "ncuk-ambassador",
-    title: "Student Ambassador, NCUK – The University Consortium",
-    img: "/ncuk.jpg",
-    desc: `
-Represented NCUK in international outreach programs and academic fairs, supporting incoming students and producing creative promotional materials for global engagement initiatives.  <br />
-**Date:** Jul 2023 – Sep 2024  
-**Link:** [NCUK](https://www.ncuk.ac.uk)
+Assisted with daily site coordination on a large-scale government finance complex, supporting site routines and delivery activities. Participated in health & safety activities including toolbox talks and safety walks to reinforce safe working practices on site. Gained practical exposure to construction site management, team coordination, and site safety procedures in a live project environment. <br />
+**Date:** Apr 2022 – May 2022  
+**Location:** Kinshasa, DR Congo
 `,
   },
 ];
-
-
+ 
+ 
 //
 // Projects
 //
 export const projects: PortfolioItem[] = [
   {
-  slug: "brain-mri-segmentation",
-  title: "Brain MRI Tissue Segmentation",
-  img: "/brain-mri.jpg",
-  desc: `
-Developed a full pipeline for multi-class brain tissue segmentation on T1-weighted MRI volumes. Implemented unsupervised and classical vision techniques, including K-Means clustering, Multi-Otsu thresholding, and gradient-based Watershed segmentation. Evaluated performance on both 2D slices and full 3D volumes using Dice coefficient, IoU, precision, recall, and confusion-matrix analysis.  <br />
-[**View Project**](https://github.com/sharafedd/brain-mri-tissue-segmentation)
-`,
-  },
-  {
-  slug: "firmware-rehosting",
-  title: "Embedded Firmware Rehosting & Protocol Analysis",
-  img: "/firmware-rehosting.jpg",
-  desc: `
-Reverse-engineered and rehosted embedded firmware for a microcontroller-based system to enable dynamic analysis without physical hardware. Performed protocol analysis, peripheral modelling, and execution tracing to support security testing and fuzzing at scale. Demonstrated low-level understanding of firmware execution, hardware–software interaction, and embedded system constraints.  <br />
-[**View Project**](https://github.com/sharafedd/pico-firmware-rehosting-lab)
-`,
-  },
-  {
-  slug: "firmware-fuzzing",
-  title: "Firmware Fuzzing & Vulnerability Analysis",
-  img: "/firmware-fuzzing.jpg",
-  desc: `
-Built a reproducible firmware fuzzing pipeline using AFL++ and Docker to discover memory-safety vulnerabilities in embedded software. Implemented custom harnesses, generated deterministic crashes, and performed root-cause analysis using GDB, stack inspection, and source-level debugging. Produced a formal CVE-style vulnerability report with CVSS scoring and technical mitigation details.  <br />
-[**View Project**](https://github.com/sharafedd/evilcorp-js-security-audit)
-`,
-  },
-  {
-    slug: "portfolio",
-    title: "Digital Profile",
+    slug: "cognitive-digital-twin",
+    title: "Cognitive Digital Twin for Building Energy & Operations",
     img: "/portfolio.jpg",
     desc: `
-Built a modular personal portfolio using Next.js 15 and Tailwind CSS v4. It dynamically loads content for education, experience, and projects from JSON data, ensuring easy scalability and consistent design. Includes Framer Motion for transitions and fully responsive layouts.  <br />
-[****View Project****](https://github.com/sharafedd/portfolio)
+Designed and developed a cognitive digital twin for a university office space to improve building energy performance through occupancy-aware HVAC control. Led the integration of environmental sensor data, occupancy prediction, and HVAC simulation within EnergyPlus to evaluate proactive energy optimisation strategies. Strengthened skills in digital twins, IoT systems, machine learning, reinforcement learning, simulation, and data-driven decision-making. <br />
+**Technologies:** Python, EnergyPlus, IoT, Machine Learning, Reinforcement Learning, Digital Twins
 `,
   },
   {
-    slug: "mea-gpt",
-    title: "MEA-GPT: AI Assistant for Research and Analytical Writing",
-    img: "/mea-gpt.jpg",
-    desc: `
-Built an AI assistant that helps users summarise, structure, and analyze research writing. Integrated multiple Hugging Face models for text generation and summarisation. Implemented a user-friendly interface with Next.js and Tailwind CSS, allowing users to input text and receive AI-generated insights.  
-`,
-  },
-  {
-    slug: "skilink",
-    title: "Skilink: Service Marketplace Platform",
-    img: "/skilink.jpg",
-    desc: `
-Created a Supabase-backed web app that connects clients with service providers. Implemented authentication, database storage, and real-time service listings with analytics dashboards, built using Next.js and TypeScript.  <br />
-[**View Project**](https://github.com/sharafedd/skilink)
-`,
-  },
-  {
-    slug: "lela",
-    title: "LELA: Story Sharing Platform",
-    img: "/lela.jpg",
-    desc: `
-Built a story-sharing platform using Next.js and Supabase where users can write, publish, and interact with stories. Integrated story analytics, reactions, and responsive layouts for both readers and authors.  <br />
-[**View Project**](https://github.com/sharafedd/lela)
-`,
-  },
-  {
-    slug: "karta",
-    title: "The Karta Project: Closed-Loop Digital Payment System",
-    img: "/karta.jpg",
-    desc: `
-Designed a secure closed-loop payment ecosystem for Algerian businesses using Kotlin and custom backend APIs. Supported NFC prepaid transactions with real-time balance synchronisation and multi-role access. <br />    
-`,
-  },
-  {
-    slug: "maxsat",
-    title: "MaxSAT Problem Solver",
-    img: "/maxsat.jpg",
-    desc: `
-Implemented a Python-based solver for the Maximum Satisfiability problem combining stochastic optimization and local search strategies. Focused on efficiency and modular testing for constraint satisfaction instances.  <br />
-[**View Project**](https://github.com/sharafedd/Solving_MAXSAT_Problems)
-`,
-  },
-  {
-    slug: "aircrew",
-    title: "AI Crew Scheduling Optimiser",
-    img: "/aircrew.jpg",
-    desc: `
-Developed an AI-based scheduling system using heuristic search to optimize crew assignments. Focused on fairness, workload distribution, and computational efficiency in scheduling tasks.  <br />
-[**View Project**](https://github.com/sharafedd/Solving_Air_Crew_Scheduling_Problem)
-`,
-  },
-  {
-    slug: "drawly",
-    title: "Drawly: AI Full Stack App",
-    img: "/drawly.jpg",
-    desc: `
-Built a social drawing application using Angular and Spring Boot, integrating generative AI for art assistance. Included authentication, real-time collaboration, and CI/CD deployment pipelines.  <br />  
-[**View Project**](https://github.com/sharafedd/Drawly)
-`,
-  },
-  {
-    slug: "timeseries",
-    title: "Neural Networks in Time Series Analysis",
+    slug: "occupancy-detection",
+    title: "Data Science Group Project: Occupancy Detection",
     img: "/fintech.jpg",
     desc: `
-Compared CNN, RNN, and LSTM models for time-series forecasting and pattern recognition. Implemented evaluation pipelines to analyse model accuracy and temporal dependencies across financial datasets.  <br />
+Led a group data science project as Team Leader, applying project management techniques to coordinate tasks, manage deadlines, and support effective team collaboration. Applied data science methods including data cleaning, exploratory analysis, feature engineering, and predictive modelling to solve a real-world occupancy detection problem using environmental sensor data. <br />
+**Technologies:** Python, Pandas, Scikit-learn, Feature Engineering, Predictive Modelling
 `,
   },
   {
-    slug: "os",
-    title: "Firewall Client–Server System",
+    slug: "bim-model-qc",
+    title: "BIM Model Quality Assurance — Campus Digital Twin",
     img: "/os.jpg",
     desc: `
-Developed a C-based client-server firewall that filters packets, logs traffic, and enforces access rules. Focused on understanding low-level network communication and basic security architecture.  <br />
-[**View Project**](https://github.com/sharafedd/OS-Firewall-Client-Server-System)
+Conducted information quality assurance and FM-readiness checks on a campus-wide BIM model in Autodesk Tandem. Created structured issue registers and data-gap logs to identify and resolve inconsistencies in asset data, supporting compliance with ISO 19650 information management standards. <br />
+**Technologies:** Autodesk Tandem, BIM, ISO 19650, Common Data Environment, Digital Twins
 `,
   },
   {
-    slug: "greenlife",
-    title: "Green Life: Mobile App Proposal",
-    img: "/greenlife.jpg",
+    slug: "portfolio-site",
+    title: "Personal Portfolio Website",
+    img: "/brain-mri.jpg",
     desc: `
-Proposed a mobile app prototype that encourages sustainable living through gamified challenges, daily eco-friendly goals, and visual impact tracking. Designed using Figma with plans for Expo-based implementation. 
+Built a modular personal portfolio using Next.js and Tailwind CSS v4. Dynamically loads content for education, experience, and projects from a TypeScript data file, ensuring easy scalability and consistent design. Includes Framer Motion for transitions and fully responsive layouts. <br />
+**Technologies:** Next.js, TypeScript, Tailwind CSS, Framer Motion
 `,
   },
 ];
-
-
-
-
+ 
+ 
 //
 // Courses & Certifications
 //
 export const certifications = [
-  { title: "Chinese Language Course – University of Birmingham", date: "Sep 2024 – Present" },
-  { title: "Creating a Business Plan – LinkedIn Learning", date: "Aug 2023" },
-  { title: "JPMorgan Chase Software Engineering Virtual Experience", date: "Aug 2023" },
-  { title: "Kubernetes University Student Bootcamp – Red Hat", date: "Jul 2023" },
+  { title: "APM Project Fundamentals Qualification (PFQ)", date: "2024" },
+  { title: "BAFCA Level 1 Coaching Certification", date: "2023" },
 ];
-
+ 
 //
 // Awards
 //
 export const awards = [
   {
-    title: "Computer Science International Excellence Scholarship",
-    date: "Sep 2023",
-    desc: "Awarded for exceptional academic and research performance in Computer Science.",
+    title: "Leadership Prize",
+    date: "Jul 2019",
+    desc: "Awarded at Lycée Prince de Liège de Kinshasa in recognition of outstanding leadership qualities and contribution to school life.",
   },
   {
-    title: "NCUK Prize Award",
-    date: "May 2023",
-    desc: "Recognized as Valedictorian for academic excellence during the NCUK qualification year.",
+    title: "Science Excellence Prize",
+    date: "Jul 2019",
+    desc: "Awarded for achieving top academic results in science subjects, graduating with an overall grade of 19.0/20.",
   },
 ];
-
+ 
 //
 // Export all
 //
@@ -331,3 +175,4 @@ export const allItems = {
   certifications,
   awards,
 };
+
