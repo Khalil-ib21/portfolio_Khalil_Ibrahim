@@ -29,8 +29,7 @@ Developed strong capabilities in applying data-driven methods to real-world engi
 - Storing and Managing Data 
 - IoT Systems & Sensor Data Integration
 - Data Visualisation
-- Research Methods & Statistical Analysis
-- Group Data Science Project`,
+- Data Science Group Project`,
   },
   {
     slug: "uob-meng",
@@ -40,7 +39,7 @@ Developed strong capabilities in applying data-driven methods to real-world engi
     desc: `
 **Degree:** MEng Civil Engineering
 **Classification:** 2:1 (Upper Second-Class Honours)
-**Focus Areas:**  Structural Engineering, Digital Engineering, Geotechnical Engineering, Material Engineering, Construction Management, Integrated Design Project
+**Focus Areas:** Project Delivery, BIM, Digital Engineering, Structural Analysis
  
 A rigorous four-year integrated masters providing deep expertise in civil engineering design, project management, and digital construction methods. Actively involved in student leadership, representing 250+ students and delivering industry events with firms including Skanska, ICE, and Morgan Sindall.
  
@@ -134,38 +133,75 @@ export const projects: PortfolioItem[] = [
   {
     slug: "cognitive-digital-twin",
     title: "Cognitive Digital Twin — Final Year Project",
-    img: "/bim.jpg",
+    img: "/fyp.jpg",
     date: "Jan 2025 – Apr 2025",
     desc: `
-Developed a digital twin for a university office space linking occupancy behaviour, environmental conditions, and HVAC simulation to improve building energy performance. Built an end-to-end workflow using IoT sensor data, predictive models, and EnergyPlus simulation. Produced dashboards to communicate insights to non-technical stakeholders.
+**Grade: First Class** — MSc Final Year Project, University of Birmingham
  
-**Technologies:** Python, EnergyPlus, IoT, Machine Learning, Reinforcement Learning, Digital Twins
+Emerging technologies like Building Information Modelling (BIM), digital twins (DT), and artificial intelligence (AI) are transforming the AEC industry, particularly in the Operation & Maintenance phase. This project explored the potential of integrating these technologies for facility management stakeholders at the University of Birmingham.
+ 
+Conducted a systematic literature review identifying state-of-the-art AI techniques for occupancy modelling — finding supervised learning as the predominant approach, with SVMs, HMMs, and kNN for occupancy prediction, and deep learning for vision-based detection. Complemented this with semi-structured interviews with the UoB Estates team to understand their current BIM-FM approach and identify inefficiencies in existing occupancy metrics.
+ 
+Based on these findings, developed a theoretical AI-driven BIM-FM framework integrating BIM, digital twin technology, and AI-driven occupancy models to optimise energy and space management. The framework was validated through structured interviews with the Estates team, emphasising its benefits for building management and its potential to facilitate decision-making, achieve energy optimisation, and support sustainability goals.
+ 
+**Key Outcomes**
+- Systematic literature review of AI techniques for occupancy modelling in AEC
+- Semi-structured interviews with UoB Estates team identifying real FM inefficiencies
+- Developed AI-driven BIM-FM framework integrating BIM, Digital Twins, and ML
+- Framework validated with industry stakeholders and proposed for implementation
+- Achieved First Class grade
+ 
+**Keywords:** BIM, Digital Twins, AI, Facility Management, Occupancy Monitoring, O&M, Energy Optimisation
+**Technologies:** Python, EnergyPlus, BIM, Digital Twins, Machine Learning, Scikit-learn
 **[View Project Report](/FYP_Report.pdf)**`,
   },
   {
     slug: "occupancy-detection",
     title: "Occupancy Monitoring & Energy Forecasting — MSc Group Project",
-    img: "/bim.jpg",
+    img: "/cnnlstm.jpg",
     date: "Jan 2025 – Apr 2025",
     desc: `
-**Team Leader** — Led a team of 5 to develop occupancy prediction and energy forecasting models using environmental sensor data. Managed weekly meetings, coordinated task delegation, and ensured timely milestone delivery.
+**Grade: First Class** — MSc Data Science Group Project, University of Birmingham
  
-Implemented XGBoost (R² = 0.9502) for occupancy prediction and a CNN-LSTM hybrid model (R² = 0.9400, RMSE = 285.92) for multi-step energy forecasting. Applied SARIMA and SARIMAX as baseline forecasting models for comparison.
+**Team Leader** — Led a team of 5 data scientists to investigate how environmental sensor data could replace traditional occupancy monitoring methods (Wi-Fi tracking, lighting sensors) to deliver more accurate, privacy-respecting, and energy-efficient building management.
  
-**Technologies:** Python, XGBoost, CNN-LSTM, SARIMA, Pandas, Scikit-learn
+Managed the full project lifecycle: organised weekly meetings, delegated tasks across the team, coordinated data pipeline development, and ensured timely delivery of all milestones. Took personal responsibility for ARIMA/SARIMAX time-series forecasting and CNN-LSTM energy forecasting, as well as LaTeX report formatting and final integration of all team contributions.
+ 
+Developed two complementary models: an XGBoost regression model for real-time occupancy prediction, achieving R² = 0.9502 and MAE = 0.16 — outperforming Random Forest, Gradient Boosting, SVR, and MLP — and a hybrid CNN-LSTM deep learning model for multi-step energy forecasting (240-hour horizon), achieving R² = 0.9400 and RMSE = 285.92. The CNN layers extracted short-term temporal features while LSTM layers captured long-term consumption patterns.
+ 
+Proposed an integrated smart campus framework combining occupancy detection, energy forecasting, and dynamic HVAC control — validated as a scalable, data-driven solution for sustainable building operations.
+ 
+**Key Outcomes**
+- XGBoost model: R² = 0.9502, MAE = 0.16 (best-performing model across 5 architectures)
+- CNN-LSTM hybrid: R² = 0.9400, RMSE = 285.92 (240-hour multi-step forecasting)
+- Led team of 5 through full project lifecycle from ideation to final report
+- Proposed scalable smart campus framework for University of Birmingham
+ 
+**Technologies:** Python, XGBoost, CNN-LSTM, SARIMA, SARIMAX, Pandas, Scikit-learn, LaTeX
 **[View Project Report](/DSGP_Report.pdf)**`,
   },
   {
     slug: "idp",
     title: "Rapid Response Medical Unit — Integrated Design Project",
-    img: "/uob.jpg",
+    img: "/idp.jpg",
     date: "Oct 2023 – Apr 2024",
     desc: `
-**Team Leader** — Led an interdisciplinary team of civil, electrical, and mechanical engineers to design a deployable rapid-response healthcare facility for conflict zones. Coordinated collaboration across disciplines, managed project timelines using Gantt charts, conducted SWOT analysis, and ensured effective communication throughout.
+**Grade: First Class** — MEng Civil Engineering Integrated Design Project, University of Birmingham
  
-Delivered a complete design solution including structural layout, MEP integration, and sustainability considerations aligned with real-world deployment constraints.
+**Team Leader** — Led an interdisciplinary team of civil, electrical, and mechanical engineers to design a deployable rapid-response healthcare facility for use in conflict zones and humanitarian emergencies. The brief required a practical, buildable solution that could be rapidly deployed, self-sufficient, and structurally resilient under challenging site conditions.
  
-**Tools:** AutoCAD, Revit, MS Project, Gantt Charts, SWOT Analysis
+Took full project management responsibility: developed a detailed Gantt chart to manage timelines and workstreams across disciplines, conducted a SWOT analysis to assess design risks and constraints, chaired regular team meetings, and coordinated design integration between structural, MEP, and sustainability workstreams.
+ 
+The final design incorporated a modular structural system for rapid assembly, on-site renewable energy generation (solar PV), water treatment and storage systems, and a controlled clinical environment — all designed to meet real-world deployment constraints. Produced full technical drawings in AutoCAD and Revit, alongside a comprehensive project report demonstrating design decisions, calculations, and risk management.
+ 
+**Key Outcomes**
+- Led interdisciplinary team across civil, electrical, and mechanical engineering disciplines
+- Delivered full project management documentation: Gantt charts, SWOT analysis, risk register
+- Produced complete technical drawings in AutoCAD and Revit
+- Designed modular, self-sufficient facility meeting humanitarian deployment requirements
+- Achieved First Class grade for design quality, project management, and report
+ 
+**Tools:** AutoCAD, Revit, MS Project, Gantt Charts, SWOT Analysis, Structural Analysis
 **[View Project Report](/IDP_Report.pdf)**`,
   },
   {
@@ -174,9 +210,11 @@ Delivered a complete design solution including structural layout, MEP integratio
     img: "/bim.jpg",
     date: "Jan 2024 – Jul 2024",
     desc: `
-Conducted FM-readiness and information quality checks on the UoB campus BIM model in Autodesk Tandem. Created issue registers and data-gap logs to resolve asset data inconsistencies and support ISO 19650 compliance. Assisted in integrating facility systems into the digital twin framework.
+Conducted FM-readiness and information quality checks on the UoB campus BIM model in Autodesk Tandem within a Common Data Environment. Created structured issue registers and data-gap logs to identify and resolve asset data inconsistencies, supporting ISO 19650 compliance and effective FM handover.
  
-**Technologies:** Autodesk Tandem, BIM, ISO 19650, Common Data Environment`,
+Assisted in integrating facility systems into the digital twin framework, improving communication between design and operations teams and supporting long-term building performance management.
+ 
+**Technologies:** Autodesk Tandem, BIM, ISO 19650, Common Data Environment, Digital Twins`,
   },
   {
     slug: "sustainability-assessment",
@@ -184,16 +222,16 @@ Conducted FM-readiness and information quality checks on the UoB campus BIM mode
     img: "/amtico.jpg",
     date: "Jul 2025 – Aug 2025",
     desc: `
-Led a multidisciplinary team to deliver a structured sustainability assessment under tight deadlines. Produced a client-style report with an executive summary translating technical findings into actionable recommendations.
+Led a multidisciplinary team to deliver a structured sustainability assessment for Amtico as part of their Micro-Internship Programme. Structured the project timeline, maintained delivery to deadline, and produced a professional client-style report with an executive summary translating technical findings into clear, actionable recommendations for senior decision-makers.
  
-**Skills:** Project Leadership, Sustainability, Stakeholder Reporting`,
+**Skills:** Project Leadership, Sustainability Assessment, Client Reporting, Team Coordination`,
   },
   {
     slug: "portfolio-site",
     title: "Personal Portfolio Website",
     img: "/uob.jpg",
     desc: `
-Built a modular portfolio using Next.js and Tailwind CSS v4, dynamically loading content from a TypeScript data file. Includes Framer Motion transitions and fully responsive layouts.
+Built a modular personal portfolio using Next.js and Tailwind CSS v4, dynamically loading content from a TypeScript data file. Includes Framer Motion transitions and fully responsive layouts.
  
 **Technologies:** Next.js, TypeScript, Tailwind CSS, Framer Motion`,
   },
