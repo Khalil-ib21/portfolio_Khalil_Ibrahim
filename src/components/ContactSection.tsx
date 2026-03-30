@@ -1,10 +1,10 @@
 "use client";
-
-import { Github, Linkedin, Mail, Twitter, ArrowUp } from "lucide-react";
+ 
+import { Github, Linkedin, Mail, ArrowUp } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import SectionTitle from "./SectionTitle";
-
+ 
 export default function ContactSection() {
   return (
     <section className="relative flex flex-col justify-between bg-gradient-to-b from-[#111111] to-[#0d0d0d] text-center min-h-screen">
@@ -19,14 +19,14 @@ export default function ContactSection() {
         <SectionTitle>
           Get in <span className="text-cyan-400">Touch!</span>
         </SectionTitle>
-
+ 
         {/* Short message */}
         <p className="text-neutral-300 max-w-xl mx-auto mt-6 mb-8 leading-relaxed">
           I love connecting with people who build, create, and think differently. 
-          Whether you’re starting something new or looking to collaborate, 
+          Whether you're starting something new or looking to collaborate, 
           feel free to reach out.
         </p>
-
+ 
         {/* Contact button */}
         <div className="flex justify-center mb-10">
           <Link
@@ -36,39 +36,32 @@ export default function ContactSection() {
             Contact Me
           </Link>
         </div>
-
+ 
         {/* Social Links */}
         <div className="flex justify-center gap-6 text-neutral-400 mb-16">
           <Link
-            href="https://github.com/sharafedd"
+            href="https://github.com/Khalil-ib21"
             target="_blank"
             className="hover:text-cyan-400 transition"
           >
             <Github size={22} />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/sharaf-boukhezer"
+            href="https://www.linkedin.com/in/khalilibrahim21"
             target="_blank"
             className="hover:text-cyan-400 transition"
           >
             <Linkedin size={22} />
           </Link>
           <Link
-            href="mailto:SharafEddine.Boukhezer@gmail.com"
+            href="mailto:Khalil.ib2111@gmail.com"
             className="hover:text-cyan-400 transition"
           >
             <Mail size={22} />
           </Link>
-          <Link
-            href="https://x.com/SharafBoukhezer/"
-            target="_blank"
-            className="hover:text-cyan-400 transition"
-          >
-            <Twitter size={22} />
-          </Link>
         </div>
       </motion.div>
-
+ 
       {/* Scroll-to-top button */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
@@ -84,19 +77,19 @@ export default function ContactSection() {
       >
         <ArrowUp size={16} strokeWidth={2.5} />
       </button>
-
+ 
       {/* Footer */}
       <footer className="border-t border-neutral-800 text-neutral-400 text-sm py-6 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between">
         <p>
-          © {new Date().getFullYear()} Sharaf&nbsp;E.&nbsp;Boukhezer | All rights reserved.
+          © {new Date().getFullYear()} Khalil&nbsp;Ibrahim | All rights reserved.
         </p>
         <a
-          href="https://github.com/sharafedd/portfolio"
+          href="https://github.com/Khalil-ib21/portfolio_Khalil_Ibrahim"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-cyan-400 transition mt-2 md:mt-0"
         >
-          github.com/sharafedd/portfolio
+          github.com/Khalil-ib21/portfolio_Khalil_Ibrahim
         </a>
       </footer>
     </section>

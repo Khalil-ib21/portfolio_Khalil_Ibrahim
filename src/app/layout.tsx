@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const mono = Space_Mono({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-mono" });
 
 export const metadata = {
-  title: "Sharaf E. Boukhezer",
-  description: "Personal portfolio of Sharaf E. Boukhezer",
+  title: "Khalil Ibrahim"
+  description: "Personal portfolio of Khalil Ibrahim — Civil Engineering & Data Science"
 };
 
 export default function RootLayout({
