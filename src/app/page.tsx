@@ -74,7 +74,10 @@ export default function PortfolioPage() {
       <section id="about" className="bg-[#1a1a1a] px-6 py-20 text-center">
         <SectionTitle>About <span className="text-cyan-400">Me</span></SectionTitle>
         <p className="max-w-3xl mx-auto text-neutral-400 leading-relaxed">
-          Graduate Civil Engineer with hands-on experience across live construction sites and client-side estates teams. Skilled in site coordination, health & safety, quality documentation, and programme support — with growing capability in project controls and digital engineering. Comfortable working with contractors, consultants, and stakeholders to turn technical requirements into practical delivery. Actively pursuing a graduate role in civil engineering, project management, or digital delivery.
+          Graduate Civil Engineer based in Birmingham, UK, with an MEng in Civil Engineering and an MSc in Data Science & AI from the University of Birmingham. I have practical experience in site coordination, BIM, digital delivery, and project support, and I am actively looking for graduate roles in civil engineering, construction management, or digital delivery.
+        </p>
+        <p className="max-w-3xl mx-auto text-neutral-400 leading-relaxed mt-4">
+          I also coach the Running Backs for Birmingham Lions American Football team and speak English, French, Arabic, Lingala and Spanish fluently.
         </p>
       </section>
  
