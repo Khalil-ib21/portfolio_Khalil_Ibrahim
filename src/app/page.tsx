@@ -74,10 +74,13 @@ export default function PortfolioPage() {
       <section id="about" className="bg-[#1a1a1a] px-6 py-20 text-center">
         <SectionTitle>About <span className="text-cyan-400">Me</span></SectionTitle>
         <p className="max-w-3xl mx-auto text-neutral-400 leading-relaxed">
-          Graduate Civil Engineer based in Birmingham, UK, with an MEng in Civil Engineering and an MSc in Data Science & AI from the University of Birmingham. I have practical experience in site coordination, BIM, digital delivery, and project support, and I am actively looking for graduate roles in civil engineering, construction management, or digital delivery.
+          Graduate Civil Engineer based in Birmingham, UK, holding an MEng in Civil Engineering and an MSc in Data Science & AI from the University of Birmingham. I combine a strong engineering foundation with practical experience in site coordination, BIM, and digital delivery, and I am actively looking for graduate roles in civil engineering, project management, or digital delivery.
         </p>
         <p className="max-w-3xl mx-auto text-neutral-400 leading-relaxed mt-4">
-          I also coach the Running Backs for Birmingham Lions American Football team and speak English, French, Arabic, Lingala and Spanish fluently.
+          I am originally from Kinshasa, DR Congo, and have lived and studied across multiple countries, giving me a broad international perspective and the ability to work effectively in diverse environments. I speak English, French, Arabic, Lingala and Spanish fluently.
+        </p>
+        <p className="max-w-3xl mx-auto text-neutral-400 leading-relaxed mt-4">
+          Beyond engineering, I volunteer at Ndako ya Bana, an orphanage in Kinshasa, and have taken part in volunteering work in Morocco. I also coach the Running Backs for Birmingham Lions American Football team, a role that has strengthened my leadership, communication, and ability to perform under pressure.
         </p>
       </section>
  
