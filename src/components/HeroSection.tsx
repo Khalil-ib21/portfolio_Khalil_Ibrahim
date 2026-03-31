@@ -50,11 +50,6 @@ export default function HeroSection() {
           </span>
         </div>
  
-        {/* Tagline */}
-        <p className="text-neutral-400 max-w-xl mx-auto mb-10 leading-relaxed text-sm">
-          MEng Civil Engineering · MSc Data Science & AI — University of Birmingham
-        </p>
- 
         {/* Social Links */}
         <div className="flex gap-6 justify-center mb-8">
           <Link
